@@ -1,0 +1,97 @@
+.banner{
+    --opacidad-negro: 0.5;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../../assets/img/banners/banner-home-1.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    //background: rgb(220,0,88);
+    //background: linear-gradient(90deg, rgba(220,0,88,0.8463760504201681) 0%, rgba(220,0,88,1) 10%, rgba(220,0,88,0.835171568627451) 100%);
+    box-sizing: border-box;
+    margin-top: 3.5rem;
+    padding-top: 3.5rem;
+    height: 100%;
+    background-position: center;
+
+    &__social{
+        background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../../assets/img/banners/banner-home-2.webp");
+    }
+
+    @include desktop{
+        height: 100vh;
+    }
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        text-align: center;
+        padding: 3rem 1rem;
+        
+        @include desktop{
+            height: 35rem;
+            width: 50%;
+            align-items: flex-start;
+            text-align: start;
+        }
+    }
+    
+    &__title, &__subtitle, &__description{
+        margin: 0;
+        text-transform: uppercase;
+    }
+    
+    &__title{
+        font-size: 2.225rem;
+        color: var(--third-text-color);
+        line-height: 2.625rem;
+
+        @include desktop{
+            font-size: 3rem;
+            line-height: 3.125rem;
+        }
+        &-span{
+            color: var(--span-text-color);
+            font-size: 1.625rem;
+            font-weight: 800;
+
+            @include desktop{
+                font-size: 2.125rem;
+            }
+        }
+    }
+
+    &__subtitle{
+        font-size: 1.325rem;
+        color: var(--third-text-color);
+        @include desktop{
+            font-size: 1.825rem;
+            line-height: 2.125rem;
+        }
+    }
+    
+    &__description{
+        font-size: 1rem;
+        color: var(--third-text-color);
+        @include desktop{
+            font-size: 1.225rem;
+        }
+    }
+
+    &__img{
+        margin: 0 auto;
+        padding: 1rem;
+        max-width: 250px;
+
+        @include desktop{
+            max-width: 100%;
+        }
+
+        &-hero{
+            width: 100%;
+        }
+    }
+}
+
+

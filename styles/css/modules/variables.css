@@ -1,0 +1,43 @@
+:root {
+    scroll-behavior: smooth;
+    --primary-theme-color: #07775E;
+    --secondary-theme-color: #07775E;
+    --primary-bg-color: #07775E;
+    --primary-text-color: #fff;
+    --secondary-text-color: #000000;
+    --third-text-color: white;
+    --span-text-color: #02B65B;
+    --reverse-primary-text-color: #000;
+    --primary-p-color: rgb(0, 0, 0);
+    --secondary-p-color:rgba(112, 112, 112, 1);
+    --primary-shadow-color: #ffffff80;
+    --secondary-shadow-color: #ffffff40;
+    --reverse-primary-shadow-color: #00000080;
+    --reverse-secondary-shadow-color: #009953;
+    --primary-highlight-color: #02B65B;
+    --secondary-highlight-color: #02B65B;
+    --third-highlight-color: rgba(112, 112, 112, 1);
+    --primary-button-color: #61dafb;
+    --secondary-button-color: #02B65B;
+    --primary-border-color:#000000;
+    --secondary-border-color:rgba(112, 112, 112, 1);
+    --reverse-primary-border-color:#ffffff;
+    --primary-font-family: 'Poppins', sans-serif;
+    --max-width-container: 1024px;
+    --padding-section: 1.5rem;
+    --padding-container: 1.25rem;
+    --padding-responsive: 5rem;
+    --primary-border-radius: 0.5rem;
+    --nav-primary-font-size: 1.125rem;
+    --primary-text-font-size: 1.5rem;
+    --secondary-text-font-size: 1.65rem;
+
+  }
+  
+  @media (min-width:768px){
+    :root {
+      --max-width-container: 1024px;
+      --padding-section: 2rem;
+      --padding-container: 0.75rem;
+    }
+  }
