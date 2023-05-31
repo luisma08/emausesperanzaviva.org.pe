@@ -59,7 +59,7 @@
     }
 
     &__title, &__description{
-      //color:var(--primary-p-color);
+      color:var(--primary-p-color);
       text-align: center;
       margin: 0;
     }
@@ -70,41 +70,6 @@
 
       @include desktop{
         text-align: left;
-      }
-    }
-
-    &__donaciones{
-
-      width: 100%;
-      @include desktop{
-        width: 50%;
-      }
-
-      &--title, &--description{
-        color:var(--primary-p-color);
-        text-align: center;
-        margin: 0;
-
-        @include desktop{
-          text-align: left;
-        }
-      }
-
-      &--title{
-        font-size: 2rem;
-        font-weight: 600;
-        @include desktop{
-          font-size: 3.125rem;
-        }
-      }
-
-      &--description{
-          font-size: 1.25rem;
-          padding-top: 1rem;
-          padding-bottom: 1rem;
-          @include desktop{
-            font-size: 1.625rem;
-          }
       }
     }
 
@@ -178,6 +143,6 @@
   
   .g-template-columns{
     @include desktop{
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
     }
   }

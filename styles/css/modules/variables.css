@@ -2,19 +2,19 @@
     scroll-behavior: smooth;
     --primary-theme-color: #CFFFFF;
     --secondary-theme-color: #07775E;
-    --primary-bg-color: #07775E;
+    --primary-bg-color: #88D66E;
     --primary-text-color: #fff;
     --secondary-text-color: #1F8949;
     --third-text-color: #8C8C8C;
     --span-text-color: #02B65B;
     --reverse-primary-text-color: #000;
-    --primary-p-color: rgb(0, 0, 0);
+    --primary-p-color: #1F8949;
     --secondary-p-color:rgba(112, 112, 112, 1);
     --primary-shadow-color: #ffffff80;
     --secondary-shadow-color: #ffffff40;
     --reverse-primary-shadow-color: #00000080;
     --reverse-secondary-shadow-color: #009953;
-    --primary-highlight-color: #02B65B;
+    --primary-highlight-color: #1F8949;
     --secondary-highlight-color: #02B65B;
     --third-highlight-color: rgba(112, 112, 112, 1);
     --primary-button-color: #61dafb;
@@ -30,7 +30,7 @@
     --primary-border-radius: 0.5rem;
     --nav-primary-font-size: 1.125rem;
     --primary-text-font-size: 0.75rem;
-    --secondary-text-font-size: 1.65rem;
+    --secondary-text-font-size: 1.125rem;
 
   }
   

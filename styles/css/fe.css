@@ -124,9 +124,24 @@
   }
 }
 
-.md\:f-elements--start {
-  justify-content: start;
-  align-items: start;
+@media (min-width: 1025px) {
+  .md\:f-col {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1025px) {
+  .md\:f-elements--start {
+    justify-content: start;
+    align-items: start;
+  }
+}
+
+@media (min-width: 1025px) {
+  .md\:f-elements--center {
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -136,7 +151,7 @@
 }
 
 .bg-green {
-  background-color: var(--primary-theme-color);
+  background-color: var(--primary-bg-color);
 }
 
 .bg-green .section__description {
@@ -166,6 +181,21 @@
 .px-sm {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.p-responsive {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+@media (min-width: 1025px) {
+  .p-responsive {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 .w-100 {
@@ -263,6 +293,7 @@
   }
 }
 .section__title, .section__description {
+  color: var(--primary-p-color);
   text-align: center;
   margin: 0;
 }
@@ -273,43 +304,6 @@
 @media (min-width: 1025px) {
   .section__text, .section__p {
     text-align: left;
-  }
-}
-.section__donaciones {
-  width: 100%;
-}
-@media (min-width: 1025px) {
-  .section__donaciones {
-    width: 50%;
-  }
-}
-.section__donaciones--title, .section__donaciones--description {
-  color: var(--primary-p-color);
-  text-align: center;
-  margin: 0;
-}
-@media (min-width: 1025px) {
-  .section__donaciones--title, .section__donaciones--description {
-    text-align: left;
-  }
-}
-.section__donaciones--title {
-  font-size: 2rem;
-  font-weight: 600;
-}
-@media (min-width: 1025px) {
-  .section__donaciones--title {
-    font-size: 3.125rem;
-  }
-}
-.section__donaciones--description {
-  font-size: 1.25rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-@media (min-width: 1025px) {
-  .section__donaciones--description {
-    font-size: 1.625rem;
   }
 }
 .section__img {
@@ -373,7 +367,7 @@
 
 @media (min-width: 1025px) {
   .g-template-columns {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
@@ -570,6 +564,7 @@
   align-items: center;
   gap: 0.438rem;
   text-align: center;
+  padding: 0;
 }
 @media (min-width: 1025px) {
   .banner__container {
@@ -714,13 +709,23 @@
 }
 
 .card {
+  box-shadow: 0 0 0.125rem var(--primary-shadow-color), 0 0 0.25rem var(--primary-shadow-color);
+  border-radius: var(--primary-border-radius);
   max-width: 360px;
   overflow: hidden;
+  transition: box-shadow 0.25s;
   margin: auto;
+  transition: transform 0.25s;
+  box-sizing: border-box;
+  width: 100%;
 }
 .card__services {
   height: auto;
   border: none;
+}
+.card:hover {
+  box-shadow: 0 0 0.25rem 0 var(--third-highlight-color);
+  transform: scale(1.125);
 }
 .card__header, .card__footer {
   padding: 1rem;
@@ -736,14 +741,18 @@
     height: 350px;
   }
 }
-.card__img-icon {
-  width: 80px;
-  height: 80px;
-  margin: 1rem 2rem;
-  padding: 2rem 2rem;
-  background-color: var(--primary-bg-color);
+.card__icon {
+  width: 50px;
+  height: 50px;
   color: var(--primary-text-color);
   border-radius: 50%;
+  box-sizing: border-box;
+}
+@media (min-width: 1025px) {
+  .card__icon {
+    width: 72px;
+    height: 72px;
+  }
 }
 .card__body {
   background-color: var(--reverse-secondary-shadow-color);
@@ -754,24 +763,13 @@
   color: var(--secondary-text-color);
 }
 .card__title {
-  font-size: 1.125rem;
-  text-align: center;
+  font-size: var(--secondary-text-font-size);
+  text-align: left;
   margin: 0;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 1rem 1rem;
+  font-weight: 500;
 }
 .card__title--primary {
   color: var(--primary-text-color);
-}
-.card__title--primary::before, .card__title--primary::after {
-  color: var(--primary-text-color);
-}
-.card__title--primary::before {
-  content: "❤ ";
-}
-.card__title--primary::after {
-  content: " ❤";
 }
 .card__subtitle {
   font-size: 1.125rem;
@@ -797,6 +795,7 @@
 }
 
 .icon {
+  width: 100%;
   animation: t-rotate 2.5s linear infinite;
 }
 
