@@ -139,6 +139,11 @@
         align-items: center;
         justify-content: center;
     }
+
+    &--end{
+      align-items: center;
+      justify-content: end;
+    }
     
     &--responsive{
         flex-direction: column;

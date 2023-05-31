@@ -14,7 +14,7 @@
     <!-- FONT FAMILY -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- ICON -->
     <link rel="shortcut icon" href="assets/icon/favicon.webp" type="image/svg+xml">
@@ -31,15 +31,14 @@
     <!-- FIN -->
 
     <main class="main">
-        <section class="banner">
+        <section class="banner f-elements f-col f-elements--end my-scroll" id="banner">
             <div class="container f-elements f-elements--responsive gap-sm">
                 <div class="banner__container">
-                    <h1 class="banner__title">Traperos de Emaús <span class="banner__title-span">Donaciones</span></h1>
-                    <h2 class="banner__subtitle">¡Dona desde la comodidad de tu hogar!</h2>
+                    <h1 class="banner__title">TU DONACIÓN LLENA DE ESPERANZA A LOS QUE MÁS NECESITAN</h1>
                     <p class="banner__description">
-                        Todo lo útil que ya no necesites nos permitirá mensualmente ayudar a los más necesitados
+                        Cambia una vida. Dona hoy
                     </p>
-                    <a class="button button--primary" href="#contact"><i class="bi bi-balloon-heart"></i> Ayudanos a Donar</a>
+                    <a class="button button--primary" href="#contact"><i class="bi bi-balloon-heart"></i> deseo donar</a>
                 </div>
             </div>
         </section>
