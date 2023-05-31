@@ -136,6 +136,10 @@
   color: var(--primary-text-color);
 }
 
+.bg-white {
+  background-color: #FFFFFF;
+}
+
 .py-sm {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -425,10 +429,6 @@
   --scale-menu:1;
   --scale-close:0;
   border: 0.5rem;
-  padding-top: 0.125rem;
-  padding-bottom: 0.125rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 .nav:target {
   --translate-list-header: 0; /* --test valor de la variable */
@@ -442,15 +442,13 @@
 }
 .nav__logo {
   display: flex;
-  width: 60px;
-  height: 60px;
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
+  width: 280px;
+  height: 62px;
 }
 .nav__icon {
   position: absolute;
   right: var(--padding-container);
-  color: var(--primary-text-color);
+  color: var(--third-text-color);
   font-size: 1.75rem;
   text-decoration: none;
   transition: transform 0.25s;
@@ -497,8 +495,8 @@
 }
 .list__link {
   position: relative;
-  color: var(--primary-text-color);
-  font-weight: 700;
+  color: var(--secondary-text-color);
+  font-weight: 500;
   text-decoration: none;
   transition: color 0.25s;
   font-size: var(--primary-text-font-size);
