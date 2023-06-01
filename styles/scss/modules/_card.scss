@@ -43,6 +43,7 @@
         color: var(--primary-text-color);
         border-radius: 50%;
         box-sizing: border-box;
+        mix-blend-mode: luminosity;
 
         @include desktop{
           width: 72px;

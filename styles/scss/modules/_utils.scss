@@ -206,7 +206,11 @@
     width: auto;
 }
 
-
+.md\:w-50{
+    @include desktop{
+        width: 50%;
+    }
+}
 
 .border{
     box-shadow: 0 0 0.125rem var(--primary-shadow-color),

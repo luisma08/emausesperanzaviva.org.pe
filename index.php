@@ -46,7 +46,7 @@
         <!-- DONACIONES -->
         <section class="section">
             <div class="container">
-                <div class="f-elements f-col f-elements--center gap-md px-sm py-sm">
+                <div class="f-elements f-col f-elements--center gap-md">
                     <p class="section__title section__title--primary">¿Qué puedes donar?</p>
                     <div class="g-elements g-center gap-md g-template-columns">
                         <div class="card f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
@@ -107,7 +107,7 @@
                         </div>
                         <div class="card f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
                             <div class="card__icon f-elements f-elements--center">
-                                <img src="./assets/icon/reciclaje.svg" alt="donacion-de-atun" class="icon">
+                                <img src="./assets/icon/atun.svg" alt="donacion-de-atun" class="icon">
                             </div>
                             <div class="f-elements f-col f-elements--center">
                                 <h3 class="card__title card__title--primary">Donación de atún</h3>
@@ -122,26 +122,30 @@
         <!--   QUIENES SOMOS  -->
 
         <section class="section" id="">
-            <div class="container f-elements f-col">
-                <h3 class="section__title">¿Quiénes Somos?</h3>
-                <p class="section__description">Somos una organización sin fines de lucro, conformada por un grupo de personas con gran vocación social que trabaja día a día con mucho amor, llevando esperanza a los pobladores de los sectores más vulnerables de Lima, Perú.</p>
-                <p class="section__description">Nos esforzamos en difundir nuestro trabajo para así recibir la mayor cantidad de ayuda posible y seguir llevando oportunidades de un futuro mejor para todos.</p>
-                <div class="f-elements f-col f-elements--center gap-md py-md">
-                    <div class="swiper mySwiper4">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/nosotros/nosotros-2.webp" alt="" class="card__img">
+            <div class="container">
+                <div class="f-elements f-col md:f-row">
+                    <div class="f-elements f-col gap-sm">
+                        <p class="section__title section__title--secondary">¿Quiénes Somos?</p>
+                        <p class="section__description">Somos una organización sin fines de lucro, conformada por un grupo de personas con gran vocación social que trabaja día a día con mucho amor, llevando esperanza a los pobladores de los sectores más vulnerables de Lima, Perú.</p>
+                        <p class="section__description">Nos esforzamos en difundir nuestro trabajo para así recibir la mayor cantidad de ayuda posible y seguir llevando oportunidades de un futuro mejor para todos.</p>
+                    </div>
+                    <div class="f-elements f-col f-elements--center gap-md py-md md:w-50">
+                        <div class="swiper mySwiper4">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card border">
+                                        <img src="assets/img/nosotros/nosotros-2.webp" alt="" class="card__img">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/nosotros/nosotros-1.webp" alt="" class="card__img">
+                                <div class="swiper-slide">
+                                    <div class="card border">
+                                        <img src="assets/img/nosotros/nosotros-1.webp" alt="" class="card__img">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/nosotros/nosotros-3.webp" alt="" class="card__img">
+                                <div class="swiper-slide">
+                                    <div class="card border">
+                                        <img src="assets/img/nosotros/nosotros-3.webp" alt="" class="card__img">
+                                    </div>
                                 </div>
                             </div>
                         </div>

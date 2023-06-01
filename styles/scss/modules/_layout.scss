@@ -3,24 +3,33 @@
     padding-bottom: var(--padding-section);
 
     &__title{
-      font-size: 2rem;
-      line-height: 2.5rem;
-      color:var(--primary-p-color);
+      font-size: var(--third-text-font-size);
+      line-height: 2.25rem;
+      
       @include desktop{
-        font-size: 3.125rem;
-        line-height: 3.625rem;
+        font-size: var(--four-text-font-size);
+        line-height: 3rem;
       }
 
       &--primary{
-        color: var(--primary-text-color);
+        text-align: center;
+        color:var(--primary-p-color);
+      }
+
+      &--secondary{
+        text-align: left;
+        color:var(--primary-p-color);
       }
     }
 
     &__description{
-        font-size: 1.25rem;
+        font-size: var(--primary-p-font-size);
         color:var(--primary-p-color);
+        text-align: justify;
+        line-height: 1.125rem;
         @include desktop{
-          font-size: 2rem;
+          font-size: var(--secondary-p-font-size);
+          line-height: 1.375rem;
         }
     }
 
@@ -60,7 +69,6 @@
 
     &__title, &__description{
       color:var(--primary-p-color);
-      text-align: center;
       margin: 0;
     }
 
