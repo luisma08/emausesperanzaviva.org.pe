@@ -160,6 +160,10 @@
     }
 }
 
+.bg-dark-green{
+    background-color: var(--secondary-bg-color);
+}
+
 .bg-white{
     background-color: #FFFFFF;
 }
@@ -208,6 +212,20 @@
 
     @include desktop{
         padding: 4rem;
+    }
+}
+
+.p-responsive--cta{
+    padding-top: 95px;
+    padding-bottom: 31px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    @include desktop{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 80px;
+        padding-bottom: 50px;
     }
 }
 
