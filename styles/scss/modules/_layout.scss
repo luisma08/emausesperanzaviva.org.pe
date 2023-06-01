@@ -20,6 +20,12 @@
         text-align: left;
         color:var(--primary-p-color);
       }
+
+      &--third{
+        text-align: center;
+        color:var(--primary-text-color);
+        font-weight: 700;
+      }
     }
 
     &__description{
@@ -31,33 +37,26 @@
           font-size: var(--secondary-p-font-size);
           line-height: 1.375rem;
         }
+
+        &--primary{
+          text-align: justify;
+        }
+
+        &--secondary{
+          text-align: center;
+        }
     }
 
     &__text{
-      line-height: 2.5rem;
-      text-transform: uppercase;
+      font-size: var(--fifth-text-font-size);
+      line-height: 1.5rem;
+      color: var(--primary-text-color);
+
       @include desktop{
-        font-size: 3.125rem;
-        line-height: 3.625rem;
+        font-size: var(--third-text-font-size);
+        line-height: 2.25rem;
       }
 
-      &--primary{
-        font-size: 2rem;
-        color: var(--primary-theme-color);
-
-        @include desktop{
-        font-size: 3.125rem;
-      }
-      }
-
-      &--secondary{
-        font-size: 2rem;
-        color: var(--primary-p-color);
-
-        @include desktop{
-        font-size: 2.625rem;
-      }
-      }
     }
 
     &__p{
@@ -68,17 +67,12 @@
     }
 
     &__title, &__description{
-      color:var(--primary-p-color);
       margin: 0;
     }
 
     &__text, &__p{
       text-align: center;
       margin: 0;
-
-      @include desktop{
-        text-align: left;
-      }
     }
 
     &__img{

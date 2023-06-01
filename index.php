@@ -154,183 +154,45 @@
             </div>
         </section>
         
-        <!--  Actividades Navideñas  -->
+        <!--  ACTIVIDADES  -->
 
-        <section class="section bg-green" id="">
-            <div class="container f-elements f-col">
-                <p class="section__description">Algunas de nuestras</p>
-                <h3 class="section__title section__title--primary">Actividades Navideñas</h3>
-                <div class="f-elements f-col f-elements--center gap-md py-md">
-                    <div class="swiper mySwiper5">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-nav/actividad-nav-1.webp" alt="" class="card__img">
+        <section class="section" id="">
+            <div class="container">
+                <div class="f-elements f-col bg-green border p-responsive--section gap-sm">
+                    <h3 class="section__title section__title--third">Donación en Nueva Esperanza, Alto Retamal</h3>
+                    <p class="section__text">Villa María del Triunfo, Lima</p>
+                    <div class="f-elements f-col f-elements--center gap-md py-md">
+                        <div class="swiper mySwiper5">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="assets/img/donaciones/nueva-esperanza-1.webp" alt="donacion-nueva-esperanza-1" class="card__img">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="assets/img/donaciones/nueva-esperanza-2.webp" alt="donacion-nueva-esperanza-2" class="card__img">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="assets/img/donaciones/nueva-esperanza-3.webp" alt="donacion-nueva-esperanza-3" class="card__img">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="assets/img/donaciones/nueva-esperanza-4.webp" alt="donacion-nueva-esperanza-4" class="card__img">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-nav/actividad-nav-2.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-nav/actividad-nav-3.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-nav/actividad-nav-4.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-nav/actividad-nav-5.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-nav/actividad-nav-6.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-nav/actividad-nav-7.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-nav/actividad-nav-8.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-nav/actividad-nav-9.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-nav/actividad-nav-10.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-nav/actividad-nav-11.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-nav/actividad-nav-12.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-nav/actividad-nav-13.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-nav/actividad-nav-14.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-nav/actividad-nav-15.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-nav/actividad-nav-16.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-nav/actividad-nav-17.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-sociales/actividades-sociales-18.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-sociales/actividades-sociales-19.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-sociales/actividades-sociales-20.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-sociales/actividades-sociales-21.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-sociales/actividades-sociales-22.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-sociales/actividades-sociales-23.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-sociales/actividades-sociales-24.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-sociales/actividades-sociales-25.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-sociales/actividades-sociales-26.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-sociales/actividades-sociales-27.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-sociales/actividades-sociales-28.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-sociales/actividades-sociales-29.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-sociales/actividades-sociales-30.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-sociales/actividades-sociales-31.webp" alt="" class="card__img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border">
-                                    <img src="assets/img/actividades-sociales/actividades-sociales-32.webp" alt="" class="card__img">
-                                </div>
-                            </div>
+                            <!--
+                            <div class="swiper-pagination mt-auto"></div>
+                            -->
                         </div>
                         <!--
-                        <div class="swiper-pagination mt-auto"></div>
+                        <a class="button button--primary" href="./actividades-sociales.php"><i class="bi bi-balloon-heart"></i> Ver más</a>
                         -->
                     </div>
-                    <!--
-                    <a class="button button--primary" href="./actividades-sociales.php"><i class="bi bi-balloon-heart"></i> Ver más</a>
-                    -->
                 </div>
             </div>
         </section>
@@ -339,62 +201,47 @@
         <!-- SECCIONES CONSULTAS -->
         <section class="section" id="services">
             <div class="container f-elements f-col gap-md">
-              <h3 class="section__title">¿Cómo donar?</h3>
-              <P class="section__description">Sigue los siguientes pasos para poder realizar tu donación</P>
+              <h3 class="section__title section__title--primary">Donar es muy fácil!</h3>
+              <P class="section__description section__description--secondary">Forma parte de nuestras acciones sociales. Recibimos cosas usadas, ropa, muebles, juguetes, máquinas, salud, reciclaje y víveres no perecibles.</P>
               <div class="g-elements g-elements--center gap-md g-template-columns">
-                <div class="card card__services f-elements f-col f-elements--center">
+                <div class="card f-elements f-col f-elements--center gap-sm px-sm py-sm">
                     <div class="card__img-icon f-elements f-elements--center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="currentColor" class="bi bi-1-circle icon" viewBox="0 0 16 16">
-                            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383h1.312Z"/>
-                        </svg>
+                        <img src="./assets/icon/service-1.svg" alt="">
                     </div>
-                    <div class="card__body-services f-elements f-col f-elements--center gap-sm">
-                        <h3 class="card__title">Contactanos</h3>
+                    <div class="card__body-services f-elements f-col f-elements--center gap-sm px-md">
                         <p class="card__text">
-                            Ponte en contacto con nosotros a través de nuestros números telefónicos. Llámanos al: +51 923 995 006
+                            1) Llámanos o escríbenos al WhatsApp 963 344 569 ó llena nuestro formulario de contacto.
                         </p>
-                    </div>
-                    <div class="card__footer">
-                        <div class="f-elements f-elements--center gap-md">
-                            <a href="tel:+51923995006" rel="noopener noreferrer" class="button button--primary"><i class="bi bi-telephone"></i> Llamar</a>
-                        </div>
                     </div>
                 </div>
-                <div class="card card__services f-elements f-col f-elements--center">
+                <div class="card f-elements f-col f-elements--center gap-sm px-sm py-sm">
                     <div class="card__img-icon f-elements f-elements--center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="currentColor" class="bi bi-2-circle icon" viewBox="0 0 16 16">
-                            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM6.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306Z"/>
-                        </svg>
+                        <img src="./assets/icon/service-2.svg" alt="">
                     </div>
-                    <div class="card__body-services f-elements f-col f-elements--center gap-sm">
-                        <h3 class="card__title">Te asesoramos</h3>
+                    <div class="card__body-services f-elements f-col f-elements--center gap-sm px-md">
                         <p class="card__text">
-                            Te atenderemos, brindaremos toda la información que necesites y programaremos el recojo hasta tu domicilio.
+                            2) Te atenderemos y brindaremos toda la información que necesites.
                         </p>
-                    </div>
-                    <div class="card__footer">
-                        <div class="f-elements f-elements--center gap-md">
-                            <a href="https://wa.me/+51923995006?text=Hola Emaús Manos Solidarias, necesito más información sobre las donaciones" rel="noopener noreferrer" class="button button--primary"><i class="bi bi-whatsapp"></i> Consultar</a>
-                        </div>
                     </div>
                 </div>
-                <div class="card card__services f-elements f-col f-elements--center">
+                <div class="card f-elements f-col f-elements--center gap-sm px-sm py-sm">
                     <div class="card__img-icon f-elements f-elements--center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="currentColor" class="bi bi-3-circle icon" viewBox="0 0 16 16">
-                            <path d="M7.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318Z"/>
-                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z"/>
-                        </svg>
+                        <img src="./assets/icon/service-3.svg" alt="">
                     </div>
-                    <div class="card__body-services f-elements f-col f-elements--center gap-sm">
-                        <h3 class="card__title">Recojo gratuito</h3>
+                    <div class="card__body-services f-elements f-col f-elements--center gap-sm px-md">
                         <p class="card__text">
-                            Realizamos el recojo cumpliendo con todos los protocolos de bioseguridad sin costo en Lima y Callao.
+                            3) Programaremos el recojo hasta tu domicilio o centro de labores.
                         </p>
                     </div>
-                    <div class="card__footer">
-                        <div class="f-elements f-elements--center gap-md">
-                            <a href="https://wa.me/+51923995006?text=Hola Emaús Manos Solidarias, quisiera realizar una donación" rel="noopener noreferrer" class="button button--primary"><i class="bi bi-balloon-heart"></i> Donar</a>
-                        </div>
+                </div>
+                <div class="card f-elements f-col f-elements--center gap-sm px-sm py-sm">
+                    <div class="card__img-icon f-elements f-elements--center">
+                        <img src="./assets/icon/service-4.svg" alt="">
+                    </div>
+                    <div class="card__body-services f-elements f-col f-elements--center gap-sm px-md">
+                        <p class="card__text">
+                            4) Realizamos el recojo cumpliendo con todos los protocolos de bioseguridad.
+                        </p>
                     </div>
                 </div>
               </div>
