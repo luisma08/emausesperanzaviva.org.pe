@@ -168,6 +168,23 @@
     background-color: #FFFFFF;
 }
 
+.bg-parallax{
+    background-image: url("../../assets/img/bg-parallax-1.webp");
+
+    @include desktop{
+        background-image: url("../../assets/img/bg-parallax-2.webp");
+        /* Full height */
+        height: 18.375rem;
+        width: 100%;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
 .py-sm{
     padding-top: 1rem;
     padding-bottom: 1rem;

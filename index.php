@@ -199,7 +199,7 @@
 
         <section class="section bg-dark-green">
             <div class="container">
-                <div class="f-elements f-elements--responsive gap-sm border p-responsive--cta">
+                <div class="f-elements f-elements--responsive gap-sm border p-responsive--cta bg-parallax">
                     <div class="f-elements f-col">
                         <p class="section__title section__title--fourt">¡Cambiemos el mañana De muchas personas!</p>
                         <p class="section__text">Con tu aporte ayudaremos a más familias.</p>
