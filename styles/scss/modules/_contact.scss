@@ -1,46 +1,47 @@
 .contact{
-    &__header{
-        text-align: center;
-        padding: 1rem;
+    background-color: #1F8949;
+    background-image: url("../../assets/img/bg-contact.webp");
+    padding-top: 28px;
+    padding-bottom: 80px;
+
+    &__title, &__description{
+        margin: 0;
+        color: var(--primary-text-color);
     }
 
-    &__logo{
+    &__img{
         display: flex;
-        width: 60px;
-        height: 60px;
-        padding-top: 0.625rem;
-        padding-bottom: 0.625rem;
+        max-width: 360px;
+        width: 100%;
+        height: 206px;
+
+        @include desktop{
+            max-width: 545px;
+            width: 100%;
+            height: 358px;
+        }
     }
 
     &__title{
-        font-size: 1.5rem;
-        text-transform: uppercase;
-        margin: 0;
-        color: var(--primary-theme-color);
+        font-size: var(--third-text-font-size);
+        text-align: center;
+        line-height: 2.25rem;
+        font-weight: 700;
+
+        @include desktop{
+            font-size: 2.813rem;
+            line-height: 3.375rem;
+        }
     }
 
     &__description{
-        font-size: 1.125rem;
-        margin: 0;
-        color: var(--primary-theme-color);
-    }
+        font-size: var(--primary-p-font-size);
+        font-weight: 500;
+        line-height: 1.125rem;
 
-    &__cta{
-        --opacidad-negro: 0.5;
-        background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url(../../assets/img/actividades-sociales/actividades-sociales-31.webp);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        box-sizing: border-box;
-        padding: 2rem;
-        max-width: 550px;
-
-        &--description{
-            font-size: 1.5rem;
-            text-align: center;
-            margin:0;
-            padding-top: 2rem;
-            padding-bottom: 2rem;
-            color: var(--primary-text-color);
+        @include desktop{
+            font-size: var(--fifth-text-font-size);
+            line-height: 1.5rem;
         }
     }
 }
