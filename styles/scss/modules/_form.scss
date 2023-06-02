@@ -1,13 +1,10 @@
 .form{
-    //background-color: var(--primary-theme-color);
+    font-family: var(--primary-font-family);
+    background-color: #FFFFFF;
     padding: 1.125rem;
-    //box-shadow: 0 0 0.125rem var(--primary-shadow-color),
-    //0 0 0.25rem var(--primary-shadow-color);
-    //border-radius: var(--primary-border-radius);
-    //border: 0.125rem solid var(--reverse-primary-border-color);
-    width: 100%;
-    box-sizing: border-box;
-    font-family: --primary-font-family;
+    border: 5px solid #80CE66;
+    border-radius: 10px;
+    margin-top: -2.625rem;
 
     &__img{
         max-width: 360px;
@@ -25,30 +22,25 @@
     
     &__label{
         font-size: var(--primary-text-font-size);
-        color: var(--primary-text-color);
+        color: 0.313rem var(--primary-text-color);
     }
     
     &__input, &__textarea{
         padding: 0.5rem;
-        border-top: 0;
-        border-bottom: 0.2rem solid var(--primary-theme-color);
-        border-left: 0;
-        border-right: 0;
+        border: 1px solid var(--secondary-border-color);
+        border-radius: 5px;
     }
     
     &__input, &__textarea, &__input::placeholder, &__textarea::placeholder{
+        font-family: var(--primary-font-family);
         font-size: var(--nav-primary-font-size);
+        color: var(--primary-input-color);
+        font-weight: 500;
     }
     
     &__input:focus, &__textarea:focus{
         //border: 5px solid var(--secondary-highlight-color);
         outline: none;
-        border-bottom: 0.2rem solid var(--primary-theme-color);
-    }
-    
-    &__button{
-        display: flex;
-        justify-content: end;
     }
     
 }

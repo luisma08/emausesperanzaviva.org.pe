@@ -32,22 +32,76 @@
         <div class="container">
             <div class="f-elements f-elements--center f-col gap-sm w-100">
                 <form action="" method="" class="form f-elements f-col gap-sm" id="contact-form">
-                    <div class="f-elements f-col gap-sm">
-                        <div class="f-elements f-col gap-sm">
-                            <input type="text" name="name" placeholder="Nombre completo" class="form__input" id="name"/>
+                    <div class="f-elements f-col gap-md">
+                        <div class="f-elements f-col md:f-row gap-md">
+                            <div class="f-elements f-col gap-md">
+                                <input type="text" name="name" placeholder="Nombre y Apellido" class="form__input" id="name"/>
+                            </div>
+                            <div class="f-elements f-col gap-md">
+                                <input type="tel" name="tel" placeholder="N de Teléfono / Celular" required class="form__input" id="tel"/>
+                            </div>
+                            <div class="f-elements f-col gap-md">
+                                <input type="email" name="mail" placeholder="Correo electrónico" required class="form__input" id="mail"/>
+                            </div>
                         </div>
-                        <div class="f-elements f-col gap-sm">
-                            <input type="email" name="mail" placeholder="Correo electronico" required class="form__input" id="mail"/>
+                        <div class="f-elements f-col md:f-row gap-md">
+                            <div class="f-elements f-col gap-md">
+                                <input type="text" name="address" placeholder="Dirección" class="form__input" id="address"/>
+                            </div>
+                            <div class="f-elements f-col gap-md">
+                                <select id="district" name="district" class="form__input">
+                                    <option disabled selected>Distrito</option>
+                                    <option>Ancón</option>
+                                    <option>Ate</option>
+                                    <option>Barranco</option>
+                                    <option>Breña</option>
+                                    <option>Carabayllo</option>
+                                    <option>Cercado de Lima</option>
+                                    <option>Chaclacayo</option>
+                                    <option>Chorrillos</option>
+                                    <option>Cieneguilla</option>
+                                    <option>Comas</option>
+                                    <option>El agustino</option>
+                                    <option>Independencia</option>
+                                    <option>Jesús maría</option>
+                                    <option>La molina</option>
+                                    <option>La victoria</option>
+                                    <option>Lince</option>
+                                    <option>Los olivos</option>
+                                    <option>Lurigancho</option>
+                                    <option>Lurín</option>
+                                    <option>Magdalena del mar</option>
+                                    <option>Miraflores</option>
+                                    <option>Pachacámac</option>
+                                    <option>Pucusana</option>
+                                    <option>Pueblo libre</option>
+                                    <option>Puente piedra</option>
+                                    <option>Punta hermosa</option>
+                                    <option>Punta negra</option>
+                                    <option>Rímac</option>
+                                    <option>San bartolo</option>
+                                    <option>San borja</option>
+                                    <option>San isidro</option>
+                                    <option>San Juan de Lurigancho</option>
+                                    <option>San Juan de Miraflores</option>
+                                    <option>San Luis</option>
+                                    <option>San Martin de Porres</option>
+                                    <option>San Miguel</option>
+                                    <option>Santa Anita</option>
+                                    <option>Santa María del Mar</option>
+                                    <option>Santa Rosa</option>
+                                    <option>Santiago de Surco</option>
+                                    <option>Surquillo</option>
+                                    <option>Villa el Salvador</option>
+                                    <option>Villa Maria del Triunfo</option>
+                                </select>
+                            </div>
                         </div>
-                        <div class="f-elements f-col gap-sm">
-                            <input type="tel" name="tel" placeholder="Teléfono / Celular" required class="form__input" id="tel"/>
+                        <div class="f-elements f-col gap-md">
+                            <textarea name="description" placeholder="Mensaje" required class="form__textarea" id="description"></textarea>
                         </div>
-                        <div class="f-elements f-col gap-sm">
-                            <textarea name="description" placeholder="Comentarios" required class="form__textarea" id="description"></textarea>
-                        </div>
-                        <div id="response"></div>
-                        <div class="form__button">
-                            <button class="button button--primary" id="submit"><i class="bi bi-envelope-heart"></i> Deseo donar</button>
+                        <div class="f-elements f-col f-elements--center">
+                            <button class="button button--secondary" id="submit">Enviar <i class="bi bi-caret-right-fill"></i></button>
                         </div>
                     </div>
                 </form>
