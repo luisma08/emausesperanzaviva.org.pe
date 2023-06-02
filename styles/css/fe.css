@@ -55,8 +55,18 @@
 .my-scroll {
   margin-top: 15.25rem;
 }
+@media (min-width: 1025px) {
+  .my-scroll {
+    margin-top: 12.188rem;
+  }
+}
 .my-scroll--1 {
   margin-top: 9.5rem;
+}
+@media (min-width: 1025px) {
+  .my-scroll--1 {
+    margin-top: 8.688rem;
+  }
 }
 
 .md\:m-none {
@@ -73,6 +83,11 @@
 
 .flex-1 {
   flex: 1;
+}
+
+.md\:f-elements--between {
+  align-items: center;
+  justify-content: center;
 }
 
 .gap-sm {
@@ -401,6 +416,16 @@
     flex-direction: row;
   }
 }
+.f-elements--responsive-2 {
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 1025px) {
+  .f-elements--responsive-2 {
+    align-items: center;
+    justify-content: space-between;
+  }
+}
 
 .g-elements {
   display: grid;
@@ -608,7 +633,8 @@
 }
 @media (min-width: 1025px) {
   .banner {
-    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../../assets/img/banners/banner-home-2.webp");
+    height: 511px;
   }
 }
 .banner__container {

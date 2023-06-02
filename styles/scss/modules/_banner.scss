@@ -16,7 +16,8 @@
     }
 
     @include desktop{
-        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../../assets/img/banners/banner-home-2.webp");
+        height: 511px;
     }
 
     &__container{

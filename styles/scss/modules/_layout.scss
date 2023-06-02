@@ -126,6 +126,16 @@
         }
     }
 
+    &--responsive-2{
+      align-items: center;
+      justify-content: center;
+
+      @include desktop{
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+
   }
   
   

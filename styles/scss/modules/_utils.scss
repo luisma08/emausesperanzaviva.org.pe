@@ -53,8 +53,16 @@
 .my-scroll{
     margin-top: 15.25rem;
 
+    @include desktop{
+        margin-top: 12.188rem;
+    }
+
     &--1{
         margin-top: 9.5rem;
+
+        @include desktop{
+            margin-top: 8.688rem;
+        }
     }
 }
 
@@ -72,6 +80,11 @@
 
 .flex-1{
     flex:1;
+}
+
+.md\:f-elements--between{
+    align-items: center;
+    justify-content: center;
 }
 
 .gap-sm{
