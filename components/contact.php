@@ -33,7 +33,7 @@
             <div class="f-elements f-elements--center f-col gap-sm w-100">
                 <form action="" method="" class="form f-elements f-col gap-sm" id="contact-form">
                     <div class="f-elements f-col gap-md">
-                        <div class="f-elements f-col md:f-row gap-md">
+                        <div class="g-elements g-template-columns-3fr gap-md">
                             <div class="f-elements f-col gap-md">
                                 <input type="text" name="name" placeholder="Nombre y Apellido" class="form__input" id="name"/>
                             </div>
@@ -44,13 +44,13 @@
                                 <input type="email" name="mail" placeholder="Correo electrónico" required class="form__input" id="mail"/>
                             </div>
                         </div>
-                        <div class="f-elements f-col md:f-row gap-md">
+                        <div class="g-elements g-elements--responsive gap-md">
                             <div class="f-elements f-col gap-md">
                                 <input type="text" name="address" placeholder="Dirección" class="form__input" id="address"/>
                             </div>
                             <div class="f-elements f-col gap-md">
-                                <select id="district" name="district" class="form__input">
-                                    <option disabled selected>Distrito</option>
+                                <select id="district" name="district" class="form__select form__select--disabled">
+                                    <option disabled selected hidden class="input-disabled">Distrito</option>
                                     <option>Ancón</option>
                                     <option>Ate</option>
                                     <option>Barranco</option>

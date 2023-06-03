@@ -25,22 +25,44 @@
         color: 0.313rem var(--primary-text-color);
     }
     
-    &__input, &__textarea{
+    &__input, &__textarea, &__select{
         padding: 0.5rem;
         border: 1px solid var(--secondary-border-color);
         border-radius: 5px;
     }
     
-    &__input, &__textarea, &__input::placeholder, &__textarea::placeholder{
+    &__input, &__textarea{
+        font-family: var(--primary-font-family);
+        font-size: var(--nav-primary-font-size);
+        color: var(--reverse-primary-text-color);
+        font-weight: 500;
+    }
+
+    &__input::placeholder, &__textarea::placeholder{
         font-family: var(--primary-font-family);
         font-size: var(--nav-primary-font-size);
         color: var(--primary-input-color);
         font-weight: 500;
     }
     
-    &__input:focus, &__textarea:focus{
+    &__input:focus, &__textarea:focus, &__select:focus{
         //border: 5px solid var(--secondary-highlight-color);
         outline: none;
+        //color: var(--secondary-text-color);
+    }
+
+    &__select{
+        font-family: var(--primary-font-family);
+        font-size: var(--nav-primary-font-size);
+        font-weight: 500;
+
+        &--disabled{
+            color: var(--primary-input-color);
+        }
+
+        &--active{
+            color: var(--reverse-primary-text-color);
+        }
     }
     
 }
