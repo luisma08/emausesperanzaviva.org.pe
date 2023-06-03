@@ -121,7 +121,7 @@
 
         <!--   QUIENES SOMOS  -->
 
-        <section class="section" id="">
+        <section class="section" id="nosotros">
             <div class="container">
                 <div class="f-elements f-col md:f-row">
                     <div class="f-elements f-col gap-sm">
@@ -156,7 +156,7 @@
         
         <!--  ACTIVIDADES  -->
 
-        <section class="section" id="">
+        <section class="section" id="actividades">
             <div class="container">
                 <div class="f-elements f-col bg-green border p-responsive--section gap-sm">
                     <h3 class="section__title section__title--third">Donación en Nueva Esperanza, Alto Retamal</h3>
@@ -213,7 +213,7 @@
 
 
         <!-- SECCIONES CONSULTAS -->
-        <section class="section" id="services">
+        <section class="section" id="donar">
             <div class="container f-elements f-col gap-md">
               <h3 class="section__title section__title--primary">Donar es muy fácil!</h3>
               <P class="section__description section__description--secondary">Forma parte de nuestras acciones sociales. Recibimos cosas usadas, ropa, muebles, juguetes, máquinas, salud, reciclaje y víveres no perecibles.</P>
