@@ -23,6 +23,15 @@
   }
 }
 
+.d-responsive--reverse {
+  display: none;
+}
+@media (min-width: 1025px) {
+  .d-responsive--reverse {
+    display: flex;
+  }
+}
+
 .p-relative {
   position: relative;
 }

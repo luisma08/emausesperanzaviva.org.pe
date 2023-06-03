@@ -51,7 +51,7 @@
                                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
                                         </svg>
                                     </a>
-                                    <a href="tel:017577908" class="list__link my-auto" id="social-text-1">Asentamiento Humano Villa Solidaridad 3ra etapa Mz. k4 Lte. 5 - San Juan de Miraflores</a>
+                                    <a href="" class="list__link my-auto" id="social-text-1">Asentamiento Humano Villa Solidaridad 3ra etapa Mz. k4 Lte. 5 - San Juan de Miraflores</a>
                                 </li>
                             </ul>
                         </div>

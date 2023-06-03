@@ -22,6 +22,14 @@
     }
 }
 
+.d-responsive--reverse{
+    display: none;
+
+    @include desktop{
+        display: flex;
+    }
+}
+
 .p-relative {
     position: relative;
 }
