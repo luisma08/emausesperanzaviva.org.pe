@@ -798,7 +798,7 @@
 .button {
   background-color: var(--primary-theme-color);
   border: 0.0625rem solid var(--primary-theme-color);
-  border-radius: var(--primary-border-radius);
+  border-radius: 4px;
   color: var(--primary-text-color);
   font-size: 1.125rem;
   text-decoration: none;
