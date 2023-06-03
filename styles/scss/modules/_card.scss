@@ -3,22 +3,22 @@
     border-radius: var(--primary-border-radius);
     max-width: 360px;
     overflow: hidden;
-    transition: box-shadow 0.25s;
+    //transition: box-shadow 0.25s;
     margin: auto;
-    transition: transform 0.25s;
+    //transition: transform 0.25s;
     box-sizing: border-box;
     width: 100%;
 
-    &__services {
-      height: auto;
-      border: none;
+    &__hover {
+      transition: box-shadow 0.25s;
+      transition: transform 0.25s;
       //border: 0.0125rem solid var(--secondary-border-color);
+      &:hover {
+        box-shadow: 0 0 0.25rem 0 var(--third-highlight-color);
+        transform: scale(1.125);
+      }
     }
     
-    &:hover {
-      box-shadow: 0 0 0.25rem 0 var(--third-highlight-color);
-      transform: scale(1.125);
-    }
     
     &__header,
     &__footer {

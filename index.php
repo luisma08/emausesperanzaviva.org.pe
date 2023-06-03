@@ -49,7 +49,7 @@
                 <div class="f-elements f-col f-elements--center gap-md">
                     <p class="section__title section__title--primary">¿Qué puedes donar?</p>
                     <div class="g-elements g-center gap-md g-template-columns">
-                        <div class="card f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
+                        <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
                             <div class="card__icon f-elements f-elements--center">
                                 <img src="./assets/icon/cosas-usadas.svg" alt="donacion-de-cosas-usadas" class="icon">
                             </div>
@@ -57,7 +57,7 @@
                                 <h3 class="card__title card__title--primary">Donación de cosas usadas</h3>
                             </div>
                         </div>
-                        <div class="card f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
+                        <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
                             <div class="card__icon f-elements f-elements--center">
                                 <img src="./assets/icon/ropa.svg" alt="donacion-de-ropa" class="icon">
                             </div>
@@ -65,7 +65,7 @@
                                 <h3 class="card__title card__title--primary">Donación de ropa</h3>
                             </div>
                         </div>
-                        <div class="card f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
+                        <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
                             <div class="card__icon f-elements f-elements--center">
                                 <img src="./assets/icon/muebles.svg" alt="donacion-de-muebles" class="icon">
                             </div>
@@ -73,7 +73,7 @@
                                 <h3 class="card__title card__title--primary">Donación de muebles</h3>
                             </div>
                         </div>
-                        <div class="card f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
+                        <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
                             <div class="card__icon f-elements f-elements--center">
                                 <img src="./assets/icon/juguetes.svg" alt="donacion-de-jueguetes" class="icon">
                             </div>
@@ -81,7 +81,7 @@
                                 <h3 class="card__title card__title--primary">Donación de juguetes</h3>
                             </div>
                         </div>
-                        <div class="card f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
+                        <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
                             <div class="card__icon f-elements f-elements--center">
                                 <img src="./assets/icon/maquinas.svg" alt="donacion-de-maquinas" class="icon">
                             </div>
@@ -89,7 +89,7 @@
                                 <h3 class="card__title card__title--primary">Donación de máquinas</h3>
                             </div>
                         </div>
-                        <div class="card f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
+                        <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
                             <div class="card__icon f-elements f-elements--center">
                                 <img src="./assets/icon/maquinas.svg" alt="donacion-de-salud" class="icon">
                             </div>
@@ -97,7 +97,7 @@
                                 <h3 class="card__title card__title--primary">Donación de salud</h3>
                             </div>
                         </div>
-                        <div class="card f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
+                        <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
                             <div class="card__icon f-elements f-elements--center">
                                 <img src="./assets/icon/reciclaje.svg" alt="donacion-de-reciclaje" class="icon">
                             </div>
@@ -105,7 +105,7 @@
                                 <h3 class="card__title card__title--primary">Donación de reciclaje</h3>
                             </div>
                         </div>
-                        <div class="card f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
+                        <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
                             <div class="card__icon f-elements f-elements--center">
                                 <img src="./assets/icon/atun.svg" alt="donacion-de-atun" class="icon">
                             </div>

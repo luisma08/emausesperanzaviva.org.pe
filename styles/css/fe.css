@@ -885,17 +885,15 @@
   border-radius: var(--primary-border-radius);
   max-width: 360px;
   overflow: hidden;
-  transition: box-shadow 0.25s;
   margin: auto;
-  transition: transform 0.25s;
   box-sizing: border-box;
   width: 100%;
 }
-.card__services {
-  height: auto;
-  border: none;
+.card__hover {
+  transition: box-shadow 0.25s;
+  transition: transform 0.25s;
 }
-.card:hover {
+.card__hover:hover {
   box-shadow: 0 0 0.25rem 0 var(--third-highlight-color);
   transform: scale(1.125);
 }
