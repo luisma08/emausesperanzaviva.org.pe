@@ -38,7 +38,9 @@
                     <p class="banner__description">
                         Cambia una vida. Dona hoy
                     </p>
-                    <a class="button button--primary" href="#contact"><i class="bi bi-balloon-heart"></i> deseo donar</a>
+                    <div class="py-sm">
+                        <a class="button button--primary" href="#contact"><i class="bi bi-balloon-heart"></i> deseo donar</a>
+                    </div>
                 </div>
             </div>
         </section>
