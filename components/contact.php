@@ -103,6 +103,7 @@
                         <div class="f-elements f-col f-elements--center">
                             <button class="button button--secondary" id="submit">Enviar <i class="bi bi-caret-right-fill"></i></button>
                         </div>
+                        <div id="response"></div>
                     </div>
                 </form>
                 <script src="js/form.js"></script>

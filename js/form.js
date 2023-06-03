@@ -1,56 +1,39 @@
-document.getElementById("submit").addEventListener("click", e => {
-    e.preventDefault();
-  
-    const name = document.querySelector("#name").value;
-    const mail = document.querySelector("#mail").value;
-    const tel = document.querySelector("#tel").value;
-    const description = document.querySelector("#description").value;
-    //const resp = document.querySelector("#response");
-  
-    //resp.classList.remove("fail");
-    //resp.classList.remove("send");
+document.querySelector("#submit").addEventListener("click", e => {
+  e.preventDefault();
 
-    var parametros = {
-      name: name,
-      mail: mail,
-      tel: tel,
-      description: description
-    };
-    
-    console.log(parametros);
-    // Configurar la solicitud
-    var url = "../utils/enviar_correo.php";
-    var opciones = {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(parametros)
-    };
-    
-    // Enviar la solicitud
-    fetch(url, opciones)
-      .then(function(response) {
-        return response.text();
-      })
-      .then(function(data) {
-        // Mostrar mensaje de éxito
-        Swal.fire({
-          icon: "success",
-          title: "Éxito",
-          text: "El correo ha sido enviado correctamente."
-        });
-        // Manejar la respuesta del servidor
-        // console.log(data);
-      })
-      .catch(function(error) {
-        // Mostrar mensaje de error
-        Swal.fire({
-          icon: "error",
-          title: "Error",
-          text: "Error al enviar el correo: " + error
-        });
-        // console.log(error);
-      });
+  //INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
+  const telefono = "51949495862";
 
-  });
+  const name = document.querySelector("#name").value;
+  const tel = document.querySelector("#tel").value;
+  const mail = document.querySelector("#mail").value;
+  const address = document.querySelector("#address").value;
+  const district = document.querySelector("#district").value;
+  const description = document.querySelector("#description").value;
+
+  resp.classList.remove("fail");
+  resp.classList.remove("send");
+
+  const url = `https://api.whatsapp.com/send?phone=${telefono}&text=
+        *Hola, Emaús Esoeranza Viva*%0A
+        *Quisiera Realizar una donación*%0A%0A
+        *Mis datos de contacto son:*%0A
+        *Nombre: ${name}%0A
+        *Correo electrónico: ${mail}*%0A
+        *N de Teléfono / Celular: ${tel}*%0A
+        *Distrito: ${district}*%0A
+        *Dirección: ${address}*%0A
+        *Comentario*%0A
+        ${description}`;
+
+  if (name === "" || mail === "") {
+    resp.classList.add("fail");
+    resp.innerHTML = `Faltan algunos datos, ${name}`;
+    return false;
+  }
+  resp.classList.remove("fail");
+  resp.classList.add("send");
+  resp.innerHTML = `Se ha enviado tu mensaje, ${name}`;
+
+  window.open(url);
+});
