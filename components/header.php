@@ -48,13 +48,13 @@
                     </a>
                     <ul class="list list--header f-elements f-col gap-md f-elements--center md:f-row" id="list-content">
                         <li>
-                            <a href="nosotros.php" class="list__link">¿Quiénes somos?</a>
+                            <a href="#nosotros" class="list__link--menu">Quienes Somos</a>
                         </li>
                         <li>
-                            <a href="actividades-sociales.php" class="list__link">Actividades sociales</a>
+                            <a href="#actividades" class="list__link--menu">Actividades</a>
                         </li>
                         <li>
-                            <a href="#contact" class="list__link">Contáctanos</a>
+                            <a href="#donar" class="list__link--menu">Cómo Donar</a>
                         </li>
                     </ul>
                 </div>
