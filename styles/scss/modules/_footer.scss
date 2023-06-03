@@ -4,12 +4,12 @@
     padding: 0;
 
     &__title{
-      font-size: 1.225rem;
-      font-weight: 600;
-      color: var(--primary-theme-color);
+      font-size: 1.563rem;
+      font-weight: 700;
+      color: var(--secondary-text-color);
 
       @include desktop{
-        font-size: var(--primary-text-font-size);
+        font-size: 2.188rem;
       }
 
       &--primary{
@@ -25,17 +25,16 @@
     }
 
     &__description{
-        
-        text-align: center;
         margin: 0;
 
         @include desktop{
-          text-align: left;
+          
         }
 
         &--primary{
-          color: var(--primary-text-color);
-          font-size: 1rem;
+          color: var(--secondary-text-color);
+          font-size: 0.563rem;
+          text-align: center;
           
           @include desktop{
             font-size: var(--primary-text-font-size);
@@ -45,9 +44,12 @@
         &--secondary{
           font-size: 1rem;
           color: var(--secondary-text-color);
+          text-align: center;
+          font-weight: 500;
 
           @include desktop{
-            font-size: 1.225rem;
+            font-size: var(--secondary-text-font-size);
+            text-align: left;
           }
         }
     }
@@ -67,5 +69,15 @@
         transform: scale(1.25);
       }
 
+    }
+
+    &__logo{
+      mix-blend-mode: color-dodge;
+    }
+
+    &__link{
+      text-decoration: none;
+      font-weight: 700;
+      color: var(--secondary-text-color);
     }
 }

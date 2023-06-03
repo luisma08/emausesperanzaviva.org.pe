@@ -164,3 +164,9 @@
       grid-template-columns: 1fr 1fr 1fr 1fr;
     }
   }
+
+  .g-template-columns-3fr{
+    @include desktop{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }

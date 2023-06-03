@@ -50,6 +50,7 @@
     }
 }
 
+
 .my-scroll{
     margin-top: 15.25rem;
 
@@ -179,6 +180,14 @@
 
 .bg-white{
     background-color: #FFFFFF;
+}
+
+.bg-silver{
+    background-color: #CFD9CE;
+}
+
+.bg-light{
+    background-color: var(--primary-theme-color);
 }
 
 .bg-parallax{
