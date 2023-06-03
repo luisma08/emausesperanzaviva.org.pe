@@ -1,55 +1,15 @@
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js';
 
-var slideContainer1 = document.querySelector('.mySwiper1');
-var slideContainer2 = document.querySelector('.mySwiper2');
-var slideContainer3 = document.querySelector('.mySwiper3');
-var slideContainer4 = document.querySelector('.mySwiper4');
-var slideContainer5 = document.querySelector('.mySwiper5');
+var slideContainerNosotros = document.querySelector('.mySwiperNosotros');
+var slideContainerActivity1 = document.querySelector('.mySwiperActivity1');
+var slideContainerActivity2 = document.querySelector('.mySwiperActivity2');
+var slideContainerActivity3 = document.querySelector('.mySwiperActivity3');
+var slideContainerActivity4 = document.querySelector('.mySwiperActivity4');
 
-//slider effect flip
-
-var swiper1 = new Swiper(slideContainer1, {
-    effect: "flip",
-    autoplay:{
-      delay:5000,
-    },
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-
-var swiper2 = new Swiper(slideContainer2, {
-  effect: "flip",
-  grabCursor: true,
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
-
-var swiper3 = new Swiper(slideContainer3, {
-  effect: "flip",
-  grabCursor: true,
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
 
 // Slider per view
 
-var swiper4 = new Swiper(slideContainer4, {
+var swiper4 = new Swiper(slideContainerNosotros, {
     slidesPerView: 1,
     spaceBetween: 10,
     pagination: {
@@ -65,7 +25,7 @@ var swiper4 = new Swiper(slideContainer4, {
 
   });
 
-var swiper5 = new Swiper(slideContainer5, {
+var swiperActivity1 = new Swiper(slideContainerActivity1, {
   slidesPerView: 1,
   spaceBetween: 10,
   pagination: {
@@ -108,9 +68,131 @@ var swiper5 = new Swiper(slideContainer5, {
     }
 });
 
-//event hover
+var swiperActivity2 = new Swiper(slideContainerActivity2, {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
 
-  //slideContainer1.addEventListener('mouseenter', () => {
-    //swiper.autoplay.start();
-  //  swiper1.slideNext();
-  //});
+  autoplay:{
+      delay:5000,
+  },
+
+  loop: true,
+
+  breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+
+      768: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+      },
+
+      1024: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+      },
+
+      1280: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+      }
+    }
+});
+
+var swiperActivity3 = new Swiper(slideContainerActivity3, {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+
+  autoplay:{
+      delay:5000,
+  },
+
+  loop: true,
+
+  breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+
+      768: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+      },
+
+      1024: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+      },
+
+      1280: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+      }
+    }
+});
+
+var swiperActivity4 = new Swiper(slideContainerActivity4, {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+
+  autoplay:{
+      delay:5000,
+  },
+
+  loop: true,
+
+  breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+
+      768: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+      },
+
+      1024: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+      },
+
+      1280: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+      }
+    }
+});

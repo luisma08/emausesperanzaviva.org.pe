@@ -40,6 +40,10 @@
   margin-top: 1rem;
 }
 
+.mt-xlg {
+  margin-top: 5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -314,6 +318,33 @@
 .h-1 {
   height: calc(100% - 5rem);
   top: 5rem;
+}
+
+.more {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 82.01%);
+  height: 332px;
+}
+
+.m-negative {
+  margin-top: -332px;
+}
+
+.link {
+  font-family: var(--primary-font-family);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 34px;
+  /* identical to box height */
+  text-align: center;
+  text-decoration-line: underline;
+  color: #1F8949;
+}
+@media (min-width: 1025px) {
+  .link {
+    font-size: 30px;
+    line-height: 36px;
+  }
 }
 
 .section {
