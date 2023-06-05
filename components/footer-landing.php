@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="container bg-silver">
-        <div class="g-elements g-template-columns-3fr gap-md py-md">
+        <div class="g-elements g-elements--responsive gap-md py-md">
             <div class="f-elements f-col">
                 <div class="f-elements f-col gap-sm">
                     <a href="index.html" class="f-elements mx-responsive">
@@ -55,24 +55,6 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-            </div>
-            <div class="f-elements f-col mx-auto">
-                <div>
-                    <p class="footer__title footer__title--secondary">Menú</p>
-                </div>
-                <div class="f-elements f-col mx-auto">
-                    <ul class="social__nav-list f-elements f-col gap-md">
-                        <li class="social__nav-item f-elements mx-responsive">
-                            <a href="#nosotros" class="list__link my-auto" id="social-text-2">Quienes Somos</a>
-                        </li>
-                        <li class="social__nav-item f-elements mx-responsive">
-                            <a href="#actividades" class="list__link my-auto" id="social-text-1">Actividades</a>
-                        </li>
-                        <li class="social__nav-item f-elements mx-responsive">
-                            <a href="#donar" class="list__link my-auto" id="social-text-1">Cómo Donar</a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>

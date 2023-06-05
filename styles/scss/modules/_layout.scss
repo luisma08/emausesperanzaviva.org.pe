@@ -57,6 +57,8 @@
       font-size: var(--fifth-text-font-size);
       line-height: 1.5rem;
       color: var(--primary-text-color);
+      text-align: center;
+      margin: 0;
 
       @include desktop{
         font-size: var(--third-text-font-size);
@@ -66,18 +68,19 @@
     }
 
     &__p{
-      font-size: 1.25rem;
+      margin: 0;
+      font-size: 1.563rem;
+      color: var(--primary-text-color);
+      line-height: 1.875rem;
+      font-weight: 700;
+      text-transform: capitalize;
+
       @include desktop{
         font-size: 1.625rem;
       }
     }
 
     &__title, &__description{
-      margin: 0;
-    }
-
-    &__text, &__p{
-      text-align: center;
       margin: 0;
     }
 

@@ -31,23 +31,117 @@
     <!-- FIN -->
 
     <main class="main">
-        <section class="section">
+        <section class="bg-img">
             <div class="container">
-                <div class="f-elements f-col md:f-row md:f-row--reverse gap-md">
-                    <div class="f-elements f-col md:w-50">
-                        <div class="f-elements f-col">
-                            <img src="./assets/img/wsp-hero.webp" alt="logo" class="section__img" />
-                        </div>
-                        <div class="">
-                            <a class="button button--primary" href="#contact"><i class="bi bi-balloon-heart"></i> deseo donar</a>
+                <div class="f-elements f-col md:f-row md:f-row--reverse">
+                    <div class="f-elements f-col md:w-50 bg-img-wsp">
+                        <div class="d-block mt-auto">
+                            <a class="button button--primary" href="#contact"><i class="bi bi-whatsapp"></i> deseo donar</a>
                         </div>
                     </div>
-                    <div class="f-elements f-col f-elements--center md:w-50">
-                        <div class="f-elements f-col gap-md">
-                            <h1 class="section__title section__title--secondary">Dona con esperanza y transforma el futuro.</h1>
-                            <p class="section__description">
+                    <div class="f-elements f-col f-elements--center md:w-50 py-md">
+                        <div class="f-elements f-col gap-sm">
+                            <h1 class="section__title section__title--secondary">DONA CON ESPERANZA Y TRANSFORMA EL FUTURO.</h1>
+                            <p class="section__p">
                                 Impacta vidas. Sé parte del cambio donando hoy
                             </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DONACIONES -->
+        <section class="section">
+            <div class="container">
+                <div class="f-elements f-col f-elements--center gap-md">
+                    <p class="section__title section__title--primary">Realiza una donación</p>
+                    <div class="g-elements g-center gap-md g-template-columns">
+                        <div class="slider f-elements f-col">
+                            <div class="swiper mySwiperDonate">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slider">
+                                        <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
+                                            <div class="card__icon f-elements f-elements--center">
+                                                <img src="./assets/icon/cosas-usadas.svg" alt="donacion-de-cosas-usadas" class="icon">
+                                            </div>
+                                            <div class="f-elements f-col f-elements--center">
+                                                <h3 class="card__title card__title--primary">Donación de cosas usadas</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slider">
+                                        <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
+                                            <div class="card__icon f-elements f-elements--center">
+                                                <img src="./assets/icon/ropa.svg" alt="donacion-de-ropa" class="icon">
+                                            </div>
+                                            <div class="f-elements f-col f-elements--center">
+                                                <h3 class="card__title card__title--primary">Donación de ropa</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slider">
+                                        <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
+                                            <div class="card__icon f-elements f-elements--center">
+                                                <img src="./assets/icon/muebles.svg" alt="donacion-de-muebles" class="icon">
+                                            </div>
+                                            <div class="f-elements f-col f-elements--center">
+                                                <h3 class="card__title card__title--primary">Donación de muebles</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slider">
+                                        <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
+                                            <div class="card__icon f-elements f-elements--center">
+                                                <img src="./assets/icon/juguetes.svg" alt="donacion-de-jueguetes" class="icon">
+                                            </div>
+                                            <div class="f-elements f-col f-elements--center">
+                                                <h3 class="card__title card__title--primary">Donación de juguetes</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slider">
+                                        <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
+                                            <div class="card__icon f-elements f-elements--center">
+                                                <img src="./assets/icon/maquinas.svg" alt="donacion-de-maquinas" class="icon">
+                                            </div>
+                                            <div class="f-elements f-col f-elements--center">
+                                                <h3 class="card__title card__title--primary">Donación de máquinas</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slider">
+                                        <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
+                                            <div class="card__icon f-elements f-elements--center">
+                                                <img src="./assets/icon/maquinas.svg" alt="donacion-de-salud" class="icon">
+                                            </div>
+                                            <div class="f-elements f-col f-elements--center">
+                                                <h3 class="card__title card__title--primary">Donación de salud</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slider">
+                                        <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
+                                            <div class="card__icon f-elements f-elements--center">
+                                                <img src="./assets/icon/reciclaje.svg" alt="donacion-de-reciclaje" class="icon">
+                                            </div>
+                                            <div class="f-elements f-col f-elements--center">
+                                                <h3 class="card__title card__title--primary">Donación de reciclaje</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slider">
+                                        <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
+                                            <div class="card__icon f-elements f-elements--center">
+                                                <img src="./assets/icon/atun.svg" alt="donacion-de-atun" class="icon">
+                                            </div>
+                                            <div class="f-elements f-col f-elements--center">
+                                                <h3 class="card__title card__title--primary">Donación de atún</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -69,5 +163,13 @@
         </section>
         
     </main>
+
+    <!-- Agregando componente footer -->
+    <?php include('components/footer-landing.php') ?>
+    <!-- FIN -->
+
+    <script src="./js/swiper.js" type="module"></script>
+    <script src="./js/showContent.js"></script>
+
 </body>
 </html>
