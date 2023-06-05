@@ -897,11 +897,6 @@
   width: 100%;
   overflow: hidden;
 }
-@media (min-width: 1024px) {
-  .slider {
-    width: 50%;
-  }
-}
 
 .swiper {
   display: flex;
@@ -920,6 +915,10 @@
   margin: auto;
   box-sizing: border-box;
   width: 100%;
+}
+.card__slide {
+  width: 159px;
+  height: 150px;
 }
 .card__hover {
   transition: box-shadow 0.25s;
@@ -967,12 +966,16 @@
 }
 .card__title {
   font-size: var(--secondary-text-font-size);
-  text-align: left;
   margin: 0;
   font-weight: 500;
 }
 .card__title--primary {
   color: var(--primary-text-color);
+  text-align: left;
+}
+.card__title--secondary {
+  color: var(--primary-text-color);
+  text-align: center;
 }
 .card__subtitle {
   font-size: 1.125rem;
