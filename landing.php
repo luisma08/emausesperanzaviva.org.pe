@@ -146,6 +146,23 @@
             </div>
         </section>
 
+        <section class="section">
+            <div class="container">
+                <div class="f-elements f-col md:f-row md:f-row--reverse">
+                    <div class="f-elements f-col md:w-50">
+                        <img src="assets/img/nosotros/nosotros-4.webp" alt="" />
+                    </div>
+                    <div class="f-elements f-col f-elements--center md:w-50 py-md">
+                        <div class="f-elements f-col gap-sm">
+                            <p class="section__description">
+                                Somos una organización sin fines de lucro en Lima, Perú, dedicada a llevar esperanza a los sectores más vulnerables. Nuestro equipo apasionado trabaja incansablemente para brindar oportunidades de un futuro mejor a través de proyectos sociales. Tu apoyo nos permite alcanzar a más personas necesitadas. ¡Únete a nosotros en esta misión de esperanza y ayuda!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="section bg-dark-green">
             <div class="container">
                 <div class="f-elements f-elements--responsive gap-sm border p-responsive--cta bg-parallax">
