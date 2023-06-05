@@ -129,8 +129,8 @@
                 <div class="f-elements f-col md:f-row">
                     <div class="f-elements f-col gap-sm">
                         <p class="section__title section__title--secondary">¿Quiénes Somos?</p>
-                        <p class="section__description">Somos una organización sin fines de lucro, conformada por un grupo de personas con gran vocación social que trabaja día a día con mucho amor, llevando esperanza a los pobladores de los sectores más vulnerables de Lima, Perú.</p>
-                        <p class="section__description">Nos esforzamos en difundir nuestro trabajo para así recibir la mayor cantidad de ayuda posible y seguir llevando oportunidades de un futuro mejor para todos.</p>
+                        <p class="section__description section__description--primary">Somos una organización sin fines de lucro, conformada por un grupo de personas con gran vocación social que trabaja día a día con mucho amor, llevando esperanza a los pobladores de los sectores más vulnerables de Lima, Perú.</p>
+                        <p class="section__description section__description--primary">Nos esforzamos en difundir nuestro trabajo para así recibir la mayor cantidad de ayuda posible y seguir llevando oportunidades de un futuro mejor para todos.</p>
                     </div>
                     <div class="f-elements f-col f-elements--center gap-md py-md md:w-50">
                         <div class="swiper mySwiperNosotros">
