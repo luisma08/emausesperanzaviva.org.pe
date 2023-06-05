@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- ICON -->
-    <link rel="shortcut icon" href="assets/icon/favicon.webp" type="image/svg+xml">
+    <link rel="shortcut icon" href="assets/icon/favicon.svg" type="image/svg+xml">
 
     <!-- HTML Meta Tags -->
     <title>▷ Emaús - Esperanza Viva [ Donaciones ]</title>
