@@ -503,6 +503,19 @@
   width: 100%;
   max-width: 450px;
 }
+.section__icon {
+  width: 160px;
+  height: 160px;
+}
+@media (min-width: 1024px) {
+  .section__icon {
+    position: absolute;
+    top: 20px;
+    left: 7%;
+    width: 90px;
+    height: 90px;
+  }
+}
 
 .container {
   max-width: auto;

@@ -137,6 +137,19 @@
       max-width: 450px;
     }
 
+    &__icon{
+      width: 160px;
+      height: 160px;
+
+      @include desktop{
+        position: absolute;
+        top: 20px;
+        left: 7%;
+        width: 90px;
+        height: 90px;
+      }
+    }
+
   }
    
   .container {

@@ -148,7 +148,8 @@
 
         <section class="section">
             <div class="container">
-                <div class="">
+                <div class="f-elements f-col p-relative py-md">
+                    <img src="assets/img/leaf.webp" class="section__icon" alt="" />
                     <p class="section__description section__description--third">
                         Tu generosidad puede marcar la diferencia.
                     </p>
