@@ -20,9 +20,23 @@
     <link rel="shortcut icon" href="assets/icon/favicon.svg" type="image/svg+xml">
 
     <!-- HTML Meta Tags -->
-    <title>▷ Emaús - Esperanza Viva [ Donaciones ]</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <title>Donaciones Lima ▷ Emaús Esperanza Viva: Brindando esperanza y oportunidades a quienes más lo necesitan</title>
+    <meta name="description" content="Tú puedes marcar la diferencia en Lima, Perú. Dona hoy para ayudar a las personas que más lo necesitan. Únete a nuestra misión de transformar vidas a través de donaciones. Brindemos esperanza y oportunidades a quienes más lo necesitan.">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="http://emausesperanzaviva.org">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Donaciones Lima ▷ Emaús Esperanza Viva: Brindando esperanza y oportunidades a quienes más lo necesitan">
+    <meta property="og:description" content="Tú puedes marcar la diferencia en Lima, Perú. Dona hoy para ayudar a las personas que más lo necesitan. Únete a nuestra misión de transformar vidas a través de donaciones. Brindemos esperanza y oportunidades a quienes más lo necesitan.">
+    <meta property="og:image" content="http://emausesperanzaviva.org/assets/img/logo.webp">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="emausesperanzaviva.org">
+    <meta property="twitter:url" content="http://emausesperanzaviva.org">
+    <meta name="twitter:title" content="Donaciones Lima ▷ Emaús Esperanza Viva: Brindando esperanza y oportunidades a quienes más lo necesitan">
+    <meta name="twitter:description" content="Tú puedes marcar la diferencia en Lima, Perú. Dona hoy para ayudar a las personas que más lo necesitan. Únete a nuestra misión de transformar vidas a través de donaciones. Brindemos esperanza y oportunidades a quienes más lo necesitan.">
+    <meta name="twitter:image" content="http://emausesperanzaviva.org/assets/img/logo.webp">
 
 </head>
 <body class="body"><!--v1.0-->

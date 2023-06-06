@@ -20,9 +20,23 @@
     <link rel="shortcut icon" href="assets/icon/favicon.svg" type="image/svg+xml">
 
     <!-- HTML Meta Tags -->
-    <title>▷ Emaús - Esperanza Viva [ Donaciones ]</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <title>▷ Emaús - Esperanza Viva  | Donaciones lima</title>
+    <meta name="description" content="Únete a nuestra misión en Lima, Perú, y marca la diferencia en la vida de quienes más lo necesitan. Tu donación de hoy es un acto de generosidad que brinda esperanza y oportunidades a personas que enfrentan desafíos. Juntos, transformaremos vidas a través de donaciones significativas. ¡Haz tu aporte ahora y se parte del cambio positivo!">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="http://emausesperanzaviva.org/landing.php">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="▷ Emaús - Esperanza Viva  | Donaciones lima">
+    <meta property="og:description" content="Únete a nuestra misión en Lima, Perú, y marca la diferencia en la vida de quienes más lo necesitan. Tu donación de hoy es un acto de generosidad que brinda esperanza y oportunidades a personas que enfrentan desafíos. Juntos, transformaremos vidas a través de donaciones significativas. ¡Haz tu aporte ahora y se parte del cambio positivo!">
+    <meta property="og:image" content="http://emausesperanzaviva.org/assets/img/logo.webp">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="emausesperanzaviva.org">
+    <meta property="twitter:url" content="http://emausesperanzaviva.org/landing.php">
+    <meta name="twitter:title" content="▷ Emaús - Esperanza Viva  | Donaciones lima">
+    <meta name="twitter:description" content="Únete a nuestra misión en Lima, Perú, y marca la diferencia en la vida de quienes más lo necesitan. Tu donación de hoy es un acto de generosidad que brinda esperanza y oportunidades a personas que enfrentan desafíos. Juntos, transformaremos vidas a través de donaciones significativas. ¡Haz tu aporte ahora y se parte del cambio positivo!">
+    <meta name="twitter:image" content="http://emausesperanzaviva.org/assets/img/logo.webp">
 
 </head>
 <body class="body">
