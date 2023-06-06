@@ -40,7 +40,7 @@
                         Cambia una vida. Dona hoy
                     </p>
                     <div class="py-sm">
-                        <a class="button button--primary" href="#contact"><i class="bi bi-balloon-heart"></i> deseo donar</a>
+                        <a class="button button--primary" href="https://wa.me/+51963344569?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre su organización. ¿Podrían proporcionarme detalles adicionales? Agradezco su atención y quedo atento/a a su pronta respuesta. ¡Gracias!"><i class="bi bi-balloon-heart"></i> deseo donar</a>
                     </div>
                 </div>
             </div>
@@ -163,7 +163,7 @@
             <div class="container">
                 <div class="f-elements f-col bg-green border p-responsive--section gap-sm">
                     <h3 class="section__title section__title--third">Donación en Nueva Esperanza, Alto Retamal</h3>
-                    <p class="section__text">Villa María del Triunfo, Lima</p>
+                    <p class="section__text section__text--primary">Villa María del Triunfo, Lima</p>
                     <div class="f-elements f-col f-elements--center gap-md py-md">
                         <div class="swiper mySwiperActivity1">
                             <div class="swiper-wrapper">
@@ -206,7 +206,7 @@
             <div class="container">
                 <div class="f-elements f-col bg-green border p-responsive--section gap-sm">
                     <h3 class="section__title section__title--third">Donación en Huancayo, Jauja</h3>
-                    <p class="section__text">Junín</p>
+                    <p class="section__text section__text--primary">Junín</p>
                     <div class="f-elements f-col f-elements--center gap-md py-md">
                         <div class="swiper mySwiperActivity2">
                             <div class="swiper-wrapper">
@@ -257,7 +257,7 @@
             <div class="container">
                 <div class="f-elements f-col bg-green border p-responsive--section gap-sm">
                     <h3 class="section__title section__title--third">Donación en Comedor Popular María Parado de Bellido</h3>
-                    <p class="section__text">San Juan de Miraflores, Lima</p>
+                    <p class="section__text section__text--primary">San Juan de Miraflores, Lima</p>
                     <div class="f-elements f-col f-elements--center gap-md py-md">
                         <div class="swiper mySwiperActivity3">
                             <div class="swiper-wrapper">
@@ -295,7 +295,7 @@
             <div class="container">
                 <div class="f-elements f-col bg-green border p-responsive--section gap-sm">
                     <h3 class="section__title section__title--third">Donación en Olla Común Atrapando Bendiciones</h3>
-                    <p class="section__text">Villa María del Triunfo, Lima</p>
+                    <p class="section__text section__text--primary">Villa María del Triunfo, Lima</p>
                     <div class="f-elements f-col f-elements--center gap-md py-md">
                         <div class="swiper mySwiperActivity4">
                             <div class="swiper-wrapper">
@@ -334,13 +334,13 @@
 
         <section class="section bg-dark-green mt-xlg">
             <div class="container">
-                <div class="f-elements f-elements--responsive gap-sm border p-responsive--cta bg-parallax">
+                <div class="g-elements g-elements--responsive g-elements--center gap-sm border px-md py-md bg-parallax">
                     <div class="f-elements f-col">
                         <p class="section__title section__title--fourt">¡Cambiemos el mañana De muchas personas!</p>
-                        <p class="section__text">Con tu aporte ayudaremos a más familias.</p>
+                        <p class="section__text section__text--responsive">Con tu aporte ayudaremos a más familias.</p>
                     </div>
-                    <div class="f-elements f-col f-elements--center">
-                        <a class="button button--outline-primary" href="#contact"><i class="bi bi-balloon-heart"></i> deseo donar</a>
+                    <div class="f-elements f-col f-elements--center mt-auto">
+                        <a class="button button--outline-primary" href="https://wa.me/+51963344569?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre su organización. ¿Podrían proporcionarme detalles adicionales? Agradezco su atención y quedo atento/a a su pronta respuesta. ¡Gracias!"><i class="bi bi-balloon-heart"></i> deseo donar</a>
                     </div>
                 </div>
             </div>

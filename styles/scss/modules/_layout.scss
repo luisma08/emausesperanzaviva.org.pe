@@ -31,6 +31,10 @@
         text-align: center;
         color:var(--primary-text-color);
         font-weight: 500;
+
+        @include desktop{
+          text-align: left;
+        }
       }
     }
 
@@ -120,12 +124,27 @@
       font-size: var(--fifth-text-font-size);
       line-height: 1.5rem;
       color: var(--primary-text-color);
-      text-align: center;
       margin: 0;
 
       @include desktop{
         font-size: var(--third-text-font-size);
         line-height: 2.25rem;
+      }
+
+      &--primary{
+        text-align: center;
+      }
+
+      &--secondary{
+        text-align: left;
+      }
+
+      &--responsive{
+        text-align: center;
+
+        @include desktop{
+          text-align: left;
+        }
       }
 
     }

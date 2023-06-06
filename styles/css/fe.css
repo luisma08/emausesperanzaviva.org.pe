@@ -426,6 +426,11 @@
   color: var(--primary-text-color);
   font-weight: 500;
 }
+@media (min-width: 1024px) {
+  .section__title--fourt {
+    text-align: left;
+  }
+}
 .section__subtitle {
   font-weight: 700;
   font-size: 28px;
@@ -504,13 +509,26 @@
   font-size: var(--fifth-text-font-size);
   line-height: 1.5rem;
   color: var(--primary-text-color);
-  text-align: center;
   margin: 0;
 }
 @media (min-width: 1024px) {
   .section__text {
     font-size: var(--third-text-font-size);
     line-height: 2.25rem;
+  }
+}
+.section__text--primary {
+  text-align: center;
+}
+.section__text--secondary {
+  text-align: left;
+}
+.section__text--responsive {
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .section__text--responsive {
+    text-align: left;
   }
 }
 .section__p {
