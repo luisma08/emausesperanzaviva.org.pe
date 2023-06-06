@@ -51,7 +51,7 @@
             </div>
         </section>
 
-        <!-- DONACIONES -->
+        <!-- DONACIONES SLIDER-->
         <section class="section">
             <div class="container">
                 <div class="f-elements f-col f-elements--center gap-md">
@@ -145,6 +145,315 @@
                 </div>
             </div>
         </section>
+
+        <!-- CONTENIDO DONACIONES -->
+
+        <section class="section">
+            <div class="container">
+                <div class="g-elements g-elements--responsive bg-silver border px-sm py-sm md:h-360">
+                    <div class="f-elements f-col">
+                        <div class="f-elements f-col md:f-row md:gap-sm">
+                            <p class="section__subtitle section__subtitle--primary">
+                                Donación de
+                            </p>
+                            <p class="section__subtitle section__subtitle--secondary">
+                                cosas usadas
+                            </p>
+                        </div>
+                        <ul class="px-md">
+                            <li class="section__list">Donación de cosas usadas</li>
+                            <li class="section__list">Donación de obejtos fuera de uso</li>
+                        </ul>
+                    </div>
+                    <div class="f-elements f-col md:f-elements--center py-md mt-auto">
+                        <div>
+                            <a class="button button--primary" href="#contact"><i class="bi bi-whatsapp"></i> Donar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="g-elements g-elements--responsive bg-silver border px-sm py-sm">
+                    <div class="f-elements f-col">
+                        <div class="f-elements f-col md:f-row md:gap-sm">
+                            <p class="section__subtitle section__subtitle--primary">
+                                Donación de
+                            </p>
+                            <p class="section__subtitle section__subtitle--secondary">
+                                ropa y calzado
+                            </p>
+                        </div>
+                        <div class="f-elements f-col md:f-row md:gap-sm">
+                            <ul class="px-md">
+                                <li class="section__list">Donación de Abrigos</li>
+                                <li class="section__list">Donación de Batas</li>
+                                <li class="section__list">Donación de Blusas</li>
+                                <li class="section__list">Donación de Calzado</li>
+                                <li class="section__list">Donación de Camisas</li>
+                                <li class="section__list">Donación de Casacas</li>
+                                <li class="section__list">Donación de Chalecos</li>
+                                <li class="section__list">Donación de Chompas</li>
+                                <li class="section__list">Donación de Faldas</li>
+                            </ul>
+                            <ul class="px-md">
+                                <li class="section__list">Donación de Frazadas</li>
+                                <li class="section__list">Donación de Pantalones</li>
+                                <li class="section__list">Donación de Pañales</li>
+                                <li class="section__list">Donación de Polos</li>
+                                <li class="section__list">Donación de Ropa</li>
+                                <li class="section__list">Donación de Toallas</li>
+                                <li class="section__list">Donación de Uniformes</li>
+                                <li class="section__list">Donación de Zapatillas</li>
+                                <li class="section__list">Donación de Zapatos</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="f-elements f-col md:f-elements--center py-md mt-auto">
+                        <div>
+                            <a class="button button--primary" href="#contact"><i class="bi bi-whatsapp"></i> Donar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="g-elements g-elements--responsive bg-silver border px-sm py-sm">
+                    <div class="f-elements f-col">
+                        <div class="f-elements f-col md:f-row md:gap-sm">
+                            <p class="section__subtitle section__subtitle--primary">
+                                Donación de
+                            </p>
+                            <p class="section__subtitle section__subtitle--secondary">
+                                muebles
+                            </p>
+                        </div>
+                        <div class="f-elements f-col md:f-row md:gap-sm">
+                            <ul class="px-md">
+                                <li class="section__list">Donación de Alfombras</li>
+                                <li class="section__list">Donación de Camarotes</li>
+                                <li class="section__list">Donación de Camas</li>
+                                <li class="section__list">Donación de Colchones</li>
+                                <li class="section__list">Donación de Cómodas</li>
+                                <li class="section__list">Donación de Juegos de sala</li>
+                                <li class="section__list">Donación de Juegos de Comedor</li>
+                                <li class="section__list">Donación de Mesas</li>
+                                <li class="section__list">Donación de Muebles</li>
+                            </ul>
+                            <ul class="px-md">
+                                <li class="section__list">Donación de Roperos</li>
+                                <li class="section__list">Donación de Sillas</li>
+                                <li class="section__list">Donación de Sillones</li>
+                                <li class="section__list">Donación de Sofás</li>
+                                <li class="section__list">Donación de Tarimas</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="f-elements f-col md:f-elements--center py-md mt-auto">
+                        <div>
+                            <a class="button button--primary" href="#contact"><i class="bi bi-whatsapp"></i> Donar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="g-elements g-elements--responsive bg-silver border px-sm py-sm md:h-360">
+                    <div class="f-elements f-col">
+                        <div class="f-elements f-col md:f-row md:gap-sm">
+                            <p class="section__subtitle section__subtitle--primary">
+                                Donación de
+                            </p>
+                            <p class="section__subtitle section__subtitle--secondary">
+                                juguetes
+                            </p>
+                        </div>
+                        <div class="f-elements f-col md:f-row md:gap-sm">
+                            <ul class="px-md">
+                                <li class="section__list">Donación de Bicicletas</li>
+                                <li class="section__list">Donación de Carritos de Juguetes</li>
+                                <li class="section__list">Donación de Juegos Recreativos</li>
+                                <li class="section__list">Donación de Juguetes</li>
+                                <li class="section__list">Donación de Muñecas</li>
+                            </ul>
+                            <ul class="px-md">
+                                <li class="section__list">Donación de Pelotas</li>
+                                <li class="section__list">Donación de Peluches</li>
+                                <li class="section__list">Donación de Sillones</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="f-elements f-col md:f-elements--center py-md mt-auto">
+                        <div>
+                            <a class="button button--primary" href="#contact"><i class="bi bi-whatsapp"></i> Donar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="g-elements g-elements--responsive bg-silver border px-sm py-sm">
+                    <div class="f-elements f-col">
+                        <div class="f-elements f-col md:f-row md:gap-sm">
+                            <p class="section__subtitle section__subtitle--primary">
+                                Donación de
+                            </p>
+                            <p class="section__subtitle section__subtitle--secondary">
+                                maquinas / electrodomesticos
+                            </p>
+                        </div>
+                        <div class="f-elements f-col md:f-row md:gap-sm">
+                            <ul class="px-md">
+                                <li class="section__list">Donación de Artefactos</li>
+                                <li class="section__list">Donación de Cocinas</li>
+                                <li class="section__list">Donación de Electrodomésticos</li>
+                                <li class="section__list">Donación de Equipos de Sonido</li>
+                                <li class="section__list">Donación de Lavadoras</li>
+                                <li class="section__list">Donación de Licuadoras</li>
+                                <li class="section__list">Donación de Microondas</li>
+                                <li class="section__list">Donación de Refrigeradoras</li>
+                            </ul>
+                            <ul class="px-md">
+                                <li class="section__list">Donación de Reproductor Blu Ray</li>
+                                <li class="section__list">Donación de Reproductor de DVD</li>
+                                <li class="section__list">Donación de Secadoras de Ropa</li>
+                                <li class="section__list">Donación de Televisores</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="f-elements f-col md:f-elements--center py-md mt-auto">
+                        <div>
+                            <a class="button button--primary" href="#contact"><i class="bi bi-whatsapp"></i> Donar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="g-elements g-elements--responsive bg-silver border px-sm py-sm md:h-360">
+                    <div class="f-elements f-col">
+                        <div class="f-elements f-col md:f-row md:gap-sm">
+                            <p class="section__subtitle section__subtitle--primary">
+                                Donación de
+                            </p>
+                            <p class="section__subtitle section__subtitle--secondary">
+                                salud
+                            </p>
+                        </div>
+                        <div class="f-elements f-col md:f-row md:gap-sm">
+                            <ul class="px-md">
+                                <li class="section__list">donar medicinas</li>
+                                <li class="section__list">donar muletas</li>
+                                <li class="section__list">donar andadores</li>
+                                <li class="section__list">donar ortopédicos</li>
+                                <li class="section__list">donar silla de ruedas</li>
+                            </ul>
+                            <ul class="px-md">
+                                <li class="section__list">donar camas clínicas</li>
+                                <li class="section__list">donar alimentos no perecederos</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="f-elements f-col md:f-elements--center py-md mt-auto">
+                        <div>
+                            <a class="button button--primary" href="#contact"><i class="bi bi-whatsapp"></i> Donar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="g-elements g-elements--responsive bg-silver border px-sm py-sm">
+                    <div class="f-elements f-col">
+                        <div class="f-elements f-col md:f-row md:gap-sm">
+                            <p class="section__subtitle section__subtitle--primary">
+                                Donación de
+                            </p>
+                            <p class="section__subtitle section__subtitle--secondary">
+                                reciclaje
+                            </p>
+                        </div>
+                        <div class="f-elements f-col md:f-row md:gap-sm">
+                            <ul class="px-md">
+                                <li class="section__list">Donación de Baterias</li>
+                                <li class="section__list">Donación de Cartón</li>
+                                <li class="section__list">Donación de Chatarra</li>
+                                <li class="section__list">Donación de Libros</li>
+                                <li class="section__list">Donación de Reciclaje</li>
+                                <li class="section__list">Donación de Saldo Almacén</li>
+                            </ul>
+                            <ul class="px-md">
+                                <li class="section__list">Donación de Saldo Depósitos</li>
+                                <li class="section__list">Donación de Papel</li>
+                                <li class="section__list">Donación de Plástico</li>
+                                <li class="section__list">Donación de Vidrio</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="f-elements f-col md:f-elements--center py-md mt-auto">
+                        <div>
+                            <a class="button button--primary" href="#contact"><i class="bi bi-whatsapp"></i> Donar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="g-elements g-elements--responsive bg-silver border px-sm py-sm">
+                    <div class="f-elements f-col">
+                        <div class="f-elements f-col md:f-row md:gap-sm">
+                            <p class="section__subtitle section__subtitle--primary">
+                                Donación de
+                            </p>
+                            <p class="section__subtitle section__subtitle--secondary">
+                                alimentos
+                            </p>
+                        </div>
+                        <div class="f-elements f-col md:f-row md:gap-sm">
+                            <ul class="px-md">
+                                <li class="section__list">Donación de Aceite</li>
+                                <li class="section__list">Donación de Agua</li>
+                                <li class="section__list">Donación de Atún</li>
+                                <li class="section__list">Donación de Arroz</li>
+                                <li class="section__list">Donación de Avena</li>
+                                <li class="section__list">Donación de Cereales</li>
+                                <li class="section__list">Donación de Comida de Bebé</li>
+                                <li class="section__list">Donación de Conservas</li>
+                            </ul>
+                            <ul class="px-md">
+                                <li class="section__list">Donación de Fideos</li>
+                                <li class="section__list">Donación de Frutas Enlatadas</li>
+                                <li class="section__list">Donación de Jugos Envasados</li>
+                                <li class="section__list">Donación de Menestras</li>
+                                <li class="section__list">Donación de Sal</li>
+                                <li class="section__list">Donación de Vegetales Enlatados</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="f-elements f-col md:f-elements--center py-md mt-auto">
+                        <div>
+                            <a class="button button--primary" href="#contact"><i class="bi bi-whatsapp"></i> Donar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FIN DE DONACIONES -->
 
         <section class="section">
             <div class="container">

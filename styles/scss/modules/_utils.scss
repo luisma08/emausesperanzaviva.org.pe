@@ -34,6 +34,10 @@
     position: relative;
 }
 
+.m-0{
+    margin: 0;
+}
+
 .mt-auto{
     margin-top: auto;
 }
@@ -109,6 +113,12 @@
 
 .gap-lg{
     gap: calc(var(--padding-section) * 2.5);
+}
+
+.md\:gap-sm{
+    @include desktop{
+        gap: calc(var(--padding-section) * 0.5);
+    }
 }
 
 .p-relative{
@@ -318,6 +328,12 @@
 .md\:w-50{
     @include desktop{
         width: 50%;
+    }
+}
+
+.md\:h-360{
+    @include desktop{
+        height: 360px;
     }
 }
 
