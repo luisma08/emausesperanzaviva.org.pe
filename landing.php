@@ -148,13 +148,35 @@
 
         <section class="section">
             <div class="container">
-                <div class="f-elements f-col md:f-row md:f-row--reverse">
+                <div class="">
+                    <p class="section__description section__description--third">
+                        Tu generosidad puede marcar la diferencia.
+                    </p>
+                    <p class="section__description section__description--third">
+                        Imagina un mundo donde cada donación ofrece esperanza a quienes más lo necesitan.
+                    </p>
+                    <p class="section__description section__description--third">
+                        Con tu apoyo, podemos transformar vidas y construir un futuro mejor, Cada donación cuenta.
+                    </p>
+                    <p class="section__description section__description--fourth">
+                        ¡Actúa ahora!  Haz tu donación y sé parte del cambio que tanto necesitamos.
+                    </p>
+                    <p class="section__description section__description--third">
+                        Juntos, podemos brindar esperanza a quienes más lo necesitan. Dona hoy y haz una diferencia real.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="f-elements f-col md:f-row md:f-row--reverse gap-md">
                     <div class="f-elements f-col md:w-50">
                         <img src="assets/img/nosotros/nosotros-4.webp" alt="" />
                     </div>
                     <div class="f-elements f-col f-elements--center md:w-50 py-md">
                         <div class="f-elements f-col gap-sm">
-                            <p class="section__description">
+                            <p class="section__description section__description--responsive">
                                 Somos una organización sin fines de lucro en Lima, Perú, dedicada a llevar esperanza a los sectores más vulnerables. Nuestro equipo apasionado trabaja incansablemente para brindar oportunidades de un futuro mejor a través de proyectos sociales. Tu apoyo nos permite alcanzar a más personas necesitadas. ¡Únete a nosotros en esta misión de esperanza y ayuda!
                             </p>
                         </div>
