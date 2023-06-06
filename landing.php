@@ -60,7 +60,7 @@
                         <div class="swiper mySwiperDonation">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="#donacion1" class="donacion-1">
+                                    <a href="#donacion-de-cosas-usadas" class="section__link donacion-1">
                                         <div class="card card__slide f-elements f-col f-elements--center gap-sm bg-green p-responsive">
                                             <div class="card__icon f-elements f-elements--center">
                                                 <img src="./assets/icon/cosas-usadas.svg" alt="donacion-de-cosas-usadas" class="icon">
@@ -72,7 +72,7 @@
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="#donacion2" class="donacion-2">
+                                    <a href="#donacion-de-ropa" class="section__link donacion-2">
                                         <div class="card card__slide f-elements f-col f-elements--center gap-sm bg-green p-responsive">
                                             <div class="card__icon f-elements f-elements--center">
                                                 <img src="./assets/icon/ropa.svg" alt="donacion-de-ropa" class="icon">
@@ -84,7 +84,7 @@
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="#donacion3" class="donacion-3">
+                                    <a href="#donacion-de-muebles" class="section__link donacion-3">
                                         <div class="card card__slide f-elements f-col f-elements--center gap-sm bg-green p-responsive">
                                             <div class="card__icon f-elements f-elements--center">
                                                 <img src="./assets/icon/muebles.svg" alt="donacion-de-muebles" class="icon">
@@ -96,7 +96,7 @@
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="#donacion4" class="donacion-4">
+                                    <a href="#donacion-de-jueguetes" class="section__link donacion-4">
                                         <div class="card card__slide f-elements f-col f-elements--center gap-sm bg-green p-responsive">
                                             <div class="card__icon f-elements f-elements--center">
                                                 <img src="./assets/icon/juguetes.svg" alt="donacion-de-jueguetes" class="icon">
@@ -108,19 +108,19 @@
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="#donacion5" class="donacion-5">
+                                    <a href="#donacion-de-maquinas" class="section__link donacion-5">
                                         <div class="card card__slide f-elements f-col f-elements--center gap-sm bg-green p-responsive">
                                             <div class="card__icon f-elements f-elements--center">
                                                 <img src="./assets/icon/maquinas.svg" alt="donacion-de-maquinas" class="icon">
                                             </div>
                                             <div class="f-elements f-col f-elements--center">
-                                                <h3 class="card__title card__title--secondary">Donación de máquinas</h3>
+                                                <h3 class="card__title card__title--secondary">Donación de máquinas / electrodomesticos</h3>
                                             </div>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="#donacion6" class="donacion-6">
+                                    <a href="#donacion-de-salud" class="section__link donacion-6">
                                         <div class="card card__slide f-elements f-col f-elements--center gap-sm bg-green p-responsive">
                                             <div class="card__icon f-elements f-elements--center">
                                                 <img src="./assets/icon/maquinas.svg" alt="donacion-de-salud" class="icon">
@@ -132,7 +132,7 @@
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="#donacion7" class="donacion-7">
+                                    <a href="#donacion-de-reciclaje" class="section__link donacion-7">
                                         <div class="card card__slide f-elements f-col f-elements--center gap-sm bg-green p-responsive">
                                             <div class="card__icon f-elements f-elements--center">
                                                 <img src="./assets/icon/reciclaje.svg" alt="donacion-de-reciclaje" class="icon">
@@ -144,7 +144,7 @@
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="#donacion8" class="donacion-8">
+                                    <a href="#donacion-de-atun" class="section__link donacion-8">
                                         <div class="card card__slide f-elements f-col f-elements--center gap-sm bg-green p-responsive">
                                             <div class="card__icon f-elements f-elements--center">
                                                 <img src="./assets/icon/atun.svg" alt="donacion-de-atun" class="icon">
@@ -190,7 +190,7 @@
             </div>
         </section>
 
-        <section class="section donacion-content-2" id="donacion2">
+        <section class="section donacion-content-2 d-none" id="donacion2">
             <div class="container">
                 <div class="g-elements g-elements--responsive bg-silver border px-sm py-sm">
                     <div class="f-elements f-col">
@@ -236,7 +236,7 @@
             </div>
         </section>
 
-        <section class="section donacion-content-3" id="donacion3">
+        <section class="section donacion-content-3 d-none" id="donacion3">
             <div class="container">
                 <div class="g-elements g-elements--responsive bg-silver border px-sm py-sm">
                     <div class="f-elements f-col">
@@ -278,7 +278,7 @@
             </div>
         </section>
 
-        <section class="section donacion-content-4" id="donacion4">
+        <section class="section donacion-content-4 d-none" id="donacion4">
             <div class="container">
                 <div class="g-elements g-elements--responsive bg-silver border px-sm py-sm md:h-360">
                     <div class="f-elements f-col">
@@ -314,7 +314,7 @@
             </div>
         </section>
 
-        <section class="section donacion-content-5" id="donacion5">
+        <section class="section donacion-content-5 d-none" id="donacion5">
             <div class="container">
                 <div class="g-elements g-elements--responsive bg-silver border px-sm py-sm">
                     <div class="f-elements f-col">
@@ -354,7 +354,7 @@
             </div>
         </section>
 
-        <section class="section donacion-content-6" id="donacion6">
+        <section class="section donacion-content-6 d-none" id="donacion6">
             <div class="container">
                 <div class="g-elements g-elements--responsive bg-silver border px-sm py-sm md:h-360">
                     <div class="f-elements f-col">
@@ -389,7 +389,7 @@
             </div>
         </section>
 
-        <section class="section donacion-content-7" id="donacion7">
+        <section class="section donacion-content-7 d-none" id="donacion7">
             <div class="container">
                 <div class="g-elements g-elements--responsive bg-silver border px-sm py-sm">
                     <div class="f-elements f-col">
@@ -427,7 +427,7 @@
             </div>
         </section>
 
-        <section class="section donacion-content-8" id="donacion8">
+        <section class="section donacion-content-8 d-none" id="donacion8">
             <div class="container">
                 <div class="g-elements g-elements--responsive bg-silver border px-sm py-sm">
                     <div class="f-elements f-col">
@@ -532,7 +532,7 @@
     <!-- FIN -->
 
     <script src="./js/swiper.js" type="module"></script>
-    <script src="./js/showContent.js"></script>
+    <script src="./js/showDonation.js"></script>
 
 </body>
 </html>
