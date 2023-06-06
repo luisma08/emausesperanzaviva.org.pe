@@ -226,17 +226,17 @@ var swiperDonation = new Swiper(slideContainerDonation, {
 
       768: {
           slidesPerView: 3,
-          spaceBetween: 30,
+          spaceBetween: 20,
       },
 
       1024: {
           slidesPerView: 4,
-          spaceBetween: 40,
+          spaceBetween: 20,
       },
 
       1280: {
         slidesPerView: 6,
-        spaceBetween: 40,
+        spaceBetween: 20,
       }
     }
 });
