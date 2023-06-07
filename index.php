@@ -173,7 +173,7 @@
         
         <!--  ACTIVIDADES 1 -->
 
-        <section class="section" id="">
+        <section class="section" id="actividades">
             <div class="container">
                 <div class="f-elements f-col bg-green border p-responsive--section gap-sm">
                     <h3 class="section__title section__title--third">Donación en Nueva Esperanza, Alto Retamal</h3>
