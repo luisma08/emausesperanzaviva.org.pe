@@ -757,10 +757,10 @@
 }
 .list--header {
   position: fixed;
-  top: 17.75rem;
+  top: 15.25rem;
   left: 0;
   width: 100%;
-  height: calc(100% - 17.75rem);
+  height: calc(100% - 15.25rem);
   background-color: var(--primary-theme-color);
   transform: translateX(var(--translate-list-header));
   transition: transform 0.25s;
