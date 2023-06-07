@@ -50,7 +50,7 @@
                 <div class="f-elements f-col md:f-row md:f-row--reverse">
                     <div class="f-elements f-col md:w-50 bg-img-wsp">
                         <div class="d-block mt-auto">
-                            <a class="button button--primary" href="https://wa.me/+51963344569?text=¡Hola al equipo de Emaús Esperanza Viva! Estoy muy interesado/a en conocer más sobre su organización. ¿Podrían brindarme más detalles y responder algunas preguntas adicionales? Aprecio enormemente su atención y estaré expectante de su pronta respuesta. ¡Le agradezco mucho por su colaboración!"><i class="bi bi-whatsapp"></i> deseo donar</a>
+                            <a class="button button--primary" href="https://wa.me/+51954746838?text=¡Hola al equipo de Emaús Esperanza Viva! Estoy muy interesado/a en conocer más sobre su organización. ¿Podrían brindarme más detalles y responder algunas preguntas adicionales? Aprecio enormemente su atención y estaré expectante de su pronta respuesta. ¡Le agradezco mucho por su colaboración!"><i class="bi bi-whatsapp"></i> deseo donar</a>
                         </div>
                     </div>
                     <div class="f-elements f-col f-elements--center md:w-50 py-md">
@@ -197,7 +197,7 @@
                     </div>
                     <div class="f-elements f-col md:f-elements--center py-md mt-auto">
                         <div>
-                            <a class="button button--primary" href="https://wa.me/+51963344569?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre la donación de cosas usadas. ¡Muchas gracias por su atención y apoyo!"><i class="bi bi-whatsapp"></i> Donar</a>
+                            <a class="button button--primary" href="https://wa.me/+51954746838?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre la donación de cosas usadas. ¡Muchas gracias por su atención y apoyo!"><i class="bi bi-whatsapp"></i> Donar</a>
                         </div>
                     </div>
                 </div>
@@ -243,7 +243,7 @@
                     </div>
                     <div class="f-elements f-col md:f-elements--center py-md mt-auto">
                         <div>
-                            <a class="button button--primary" href="https://wa.me/+51963344569?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre la donación de ropa y calzado. ¡Muchas gracias por su atención y apoyo!"><i class="bi bi-whatsapp"></i> Donar</a>
+                            <a class="button button--primary" href="https://wa.me/+51954746838?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre la donación de ropa y calzado. ¡Muchas gracias por su atención y apoyo!"><i class="bi bi-whatsapp"></i> Donar</a>
                         </div>
                     </div>
                 </div>
@@ -285,7 +285,7 @@
                     </div>
                     <div class="f-elements f-col md:f-elements--center py-md mt-auto">
                         <div>
-                            <a class="button button--primary" href="https://wa.me/+51963344569?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre la donación de muebles. ¡Muchas gracias por su atención y apoyo!"><i class="bi bi-whatsapp"></i> Donar</a>
+                            <a class="button button--primary" href="https://wa.me/+51954746838?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre la donación de muebles. ¡Muchas gracias por su atención y apoyo!"><i class="bi bi-whatsapp"></i> Donar</a>
                         </div>
                     </div>
                 </div>
@@ -321,7 +321,7 @@
                     </div>
                     <div class="f-elements f-col md:f-elements--center py-md mt-auto">
                         <div>
-                            <a class="button button--primary" href="https://wa.me/+51963344569?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre la donación de juguetes. ¡Muchas gracias por su atención y apoyo!"><i class="bi bi-whatsapp"></i> Donar</a>
+                            <a class="button button--primary" href="https://wa.me/+51954746838?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre la donación de juguetes. ¡Muchas gracias por su atención y apoyo!"><i class="bi bi-whatsapp"></i> Donar</a>
                         </div>
                     </div>
                 </div>
@@ -361,7 +361,7 @@
                     </div>
                     <div class="f-elements f-col md:f-elements--center py-md mt-auto">
                         <div>
-                            <a class="button button--primary" href="https://wa.me/+51963344569?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre la donación de maquinas / electrodomesticos. ¡Muchas gracias por su atención y apoyo!"><i class="bi bi-whatsapp"></i> Donar</a>
+                            <a class="button button--primary" href="https://wa.me/+51954746838?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre la donación de maquinas / electrodomesticos. ¡Muchas gracias por su atención y apoyo!"><i class="bi bi-whatsapp"></i> Donar</a>
                         </div>
                     </div>
                 </div>
@@ -396,7 +396,7 @@
                     </div>
                     <div class="f-elements f-col md:f-elements--center py-md mt-auto">
                         <div>
-                            <a class="button button--primary" href="https://wa.me/+51963344569?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre la donación de salud. ¡Muchas gracias por su atención y apoyo!"><i class="bi bi-whatsapp"></i> Donar</a>
+                            <a class="button button--primary" href="https://wa.me/+51954746838?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre la donación de salud. ¡Muchas gracias por su atención y apoyo!"><i class="bi bi-whatsapp"></i> Donar</a>
                         </div>
                     </div>
                 </div>
@@ -434,7 +434,7 @@
                     </div>
                     <div class="f-elements f-col md:f-elements--center py-md mt-auto">
                         <div>
-                            <a class="button button--primary" href="https://wa.me/+51963344569?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre la donación de reciclaje. ¡Muchas gracias por su atención y apoyo!"><i class="bi bi-whatsapp"></i> Donar</a>
+                            <a class="button button--primary" href="https://wa.me/+51954746838?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre la donación de reciclaje. ¡Muchas gracias por su atención y apoyo!"><i class="bi bi-whatsapp"></i> Donar</a>
                         </div>
                     </div>
                 </div>
@@ -476,7 +476,7 @@
                     </div>
                     <div class="f-elements f-col md:f-elements--center py-md mt-auto">
                         <div>
-                            <a class="button button--primary" href="https://wa.me/+51963344569?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre la donación de alimentos. ¡Muchas gracias por su atención y apoyo!"><i class="bi bi-whatsapp"></i> Donar</a>
+                            <a class="button button--primary" href="https://wa.me/+51954746838?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre la donación de alimentos. ¡Muchas gracias por su atención y apoyo!"><i class="bi bi-whatsapp"></i> Donar</a>
                         </div>
                     </div>
                 </div>
@@ -533,7 +533,7 @@
                         <p class="section__text section__text--responsive">Tu aporte marca la diferencia para más familias</p>
                     </div>
                     <div class="f-elements f-col f-elements--center mt-auto">
-                        <a class="button button--outline-primary" href="https://wa.me/+51963344569?text=¡Hola al equipo de Emaús Esperanza Viva! Estoy muy interesado/a en conocer más sobre su organización. ¿Podrían brindarme más detalles y responder algunas preguntas adicionales? Aprecio enormemente su atención y estaré expectante de su pronta respuesta. ¡Le agradezco mucho por su colaboración!"><i class="bi bi-balloon-heart"></i> deseo donar</a>
+                        <a class="button button--outline-primary" href="https://wa.me/+51954746838?text=¡Hola al equipo de Emaús Esperanza Viva! Estoy muy interesado/a en conocer más sobre su organización. ¿Podrían brindarme más detalles y responder algunas preguntas adicionales? Aprecio enormemente su atención y estaré expectante de su pronta respuesta. ¡Le agradezco mucho por su colaboración!"><i class="bi bi-balloon-heart"></i> deseo donar</a>
                     </div>
                 </div>
             </div>

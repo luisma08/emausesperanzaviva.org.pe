@@ -54,7 +54,7 @@
                         Cambia una vida. Dona hoy
                     </p>
                     <div class="py-sm">
-                        <a class="button button--primary" href="https://wa.me/+51963344569?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre su organización. ¿Podrían proporcionarme detalles adicionales? Agradezco su atención y quedo atento/a a su pronta respuesta. ¡Gracias!"><i class="bi bi-balloon-heart"></i> deseo donar</a>
+                        <a class="button button--primary" href="https://wa.me/+51954746838?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre su organización. ¿Podrían proporcionarme detalles adicionales? Agradezco su atención y quedo atento/a a su pronta respuesta. ¡Gracias!"><i class="bi bi-balloon-heart"></i> deseo donar</a>
                     </div>
                 </div>
             </div>
@@ -354,7 +354,7 @@
                         <p class="section__text section__text--responsive">Con tu aporte ayudaremos a más familias.</p>
                     </div>
                     <div class="f-elements f-col f-elements--center mt-auto">
-                        <a class="button button--outline-primary" href="https://wa.me/+51963344569?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre su organización. ¿Podrían proporcionarme detalles adicionales? Agradezco su atención y quedo atento/a a su pronta respuesta. ¡Gracias!"><i class="bi bi-balloon-heart"></i> deseo donar</a>
+                        <a class="button button--outline-primary" href="https://wa.me/+51954746838?text=Hola, equipo de Emaús Esperanza Viva. Me gustaría obtener más información sobre su organización. ¿Podrían proporcionarme detalles adicionales? Agradezco su atención y quedo atento/a a su pronta respuesta. ¡Gracias!"><i class="bi bi-balloon-heart"></i> deseo donar</a>
                     </div>
                 </div>
             </div>
@@ -373,7 +373,7 @@
                     </div>
                     <div class="card__body-services f-elements f-col f-elements--center gap-sm px-md">
                         <p class="card__text">
-                            1) Llámanos o escríbenos al WhatsApp 963 344 569 ó llena nuestro formulario de contacto.
+                            1) Llámanos o escríbenos al WhatsApp 954 746 838 ó llena nuestro formulario de contacto.
                         </p>
                     </div>
                 </div>
