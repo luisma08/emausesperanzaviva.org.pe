@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- ICON -->
-    <link rel="shortcut icon" href="assets/icon/favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./assets/icon/favicon.svg" type="image/svg+xml">
 
     <!-- HTML Meta Tags -->
     <title>▷ Emaús - Esperanza Viva  | Donaciones lima</title>
@@ -37,6 +37,16 @@
     <meta name="twitter:title" content="▷ Emaús - Esperanza Viva  | Donaciones lima">
     <meta name="twitter:description" content="Únete a nuestra misión en Lima, Perú, y marca la diferencia en la vida de quienes más lo necesitan. Tu donación de hoy es un acto de generosidad que brinda esperanza y oportunidades a personas que enfrentan desafíos. Juntos, transformaremos vidas a través de donaciones significativas. ¡Haz tu aporte ahora y se parte del cambio positivo!">
     <meta name="twitter:image" content="http://emausesperanzaviva.org/assets/img/logo.webp">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-272457029-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-272457029-1');
+    </script>
 
 </head>
 <body class="body">
@@ -73,8 +83,8 @@
                     <div class="slider f-elements f-col">
                         <div class="swiper mySwiperDonation">
                             <div class="f-elements f-elements--end gap-sm py-sm">
-                                <div class="button-prev cursor-pointer"><img src="./assets/icon/button-prev.webp" alt="" /></div>
-                                <div class="button-next cursor-pointer"><img src="./assets/icon/button-next.webp" alt="" /></div>
+                                <div class="button-prev "><img src="./assets/icon/button-prev.webp" alt="" /></div>
+                                <div class="button-next "><img src="./assets/icon/button-next.webp" alt="" /></div>
                             </div>
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -174,9 +184,6 @@
                                     </a>
                                 </div>
                             </div>
-                            
-                            
-                            
                         </div>
                     </div>
                 </div>
@@ -495,7 +502,7 @@
         <section class="section">
             <div class="container">
                 <div class="f-elements f-col p-relative py-md">
-                    <img src="assets/img/leaf.webp" class="section__icon" alt="" />
+                    <img src="./assets/img/leaf.webp" class="section__icon" alt="" />
                     <p class="section__description section__description--third">
                         Tu generosidad puede marcar la diferencia.
                     </p>
@@ -519,7 +526,7 @@
             <div class="container">
                 <div class="f-elements f-col md:f-row md:f-row--reverse gap-md">
                     <div class="f-elements f-col md:w-50">
-                        <img src="assets/img/nosotros/nosotros-4.webp" alt="" />
+                        <img src="./assets/img/nosotros/nosotros-4.png" alt="" />
                     </div>
                     <div class="f-elements f-col f-elements--center md:w-50 py-md">
                         <div class="f-elements f-col gap-sm">
@@ -534,7 +541,7 @@
 
         <section class="section bg-dark-green">
             <div class="container">
-                <div class="g-elements g-elements--responsive g-elements--center gap-sm border py-md px-md bg-parallax">
+                <div class="g-elements g-elements--responsive g-elements--center gap-sm border-cta py-md px-md bg-parallax">
                     <div class="f-elements f-col">
                         <p class="section__title section__title--fourt">!Actúa ahora y sé parte del cambio. Dona y comparte esperanza!</p>
                         <p class="section__text section__text--responsive">Tu aporte marca la diferencia para más familias</p>

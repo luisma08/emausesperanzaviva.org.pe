@@ -215,10 +215,12 @@
 
 .bg-parallax {
   background-image: url("../../assets/img/bg-parallax-1.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 @media (min-width: 1024px) {
   .bg-parallax {
-    background-image: url("../../assets/img/bg-parallax-2.webp");
+    background-image: url("../../assets/img/bg-parallax-2.png");
     /* Full height */
     height: 18.375rem;
     width: 100%;
@@ -234,6 +236,7 @@
   background-image: url("../../assets/img/bg-img-1.webp");
   background-size: 100% 100%;
   background-color: #88D66E;
+  background-repeat: no-repeat;
 }
 @media (min-width: 1024px) {
   .bg-img {
@@ -242,20 +245,21 @@
 }
 
 .bg-img-wsp {
-  background-image: url("../../assets/img/wsp-hero.webp");
-  background-size: 100% 100%;
+  background-image: url("../../assets/img/wsp-hero.png");
+  background-size: 191px 266px;
   height: 335px;
   width: 208px;
   background-repeat: no-repeat;
-  background-position-y: -20px;
+  background-position: bottom 20px left;
 }
 @media (min-width: 1024px) {
   .bg-img-wsp {
-    background-image: url("../../assets/img/wsp-hero-resp.webp");
+    background-image: url("../../assets/img/wsp-hero-resp.png");
+    background-size: 100% 100%;
     height: 548px;
     padding-bottom: 42px;
     padding-left: 96px;
-    background-position-y: 0px;
+    background-position: bottom 0px left;
   }
 }
 
@@ -355,6 +359,12 @@
   border-style: dotted;
   border-width: 0.2rem;
   border-color: var(--primary-theme-color);
+}
+
+.border-cta {
+  box-sizing: border-box;
+  border: 5px solid #FFFFFF;
+  border-radius: 15px;
 }
 
 .h-0 {
@@ -552,8 +562,14 @@
   margin: 0;
 }
 .section__img {
-  width: 100%;
-  max-width: 450px;
+  width: 230px;
+  height: 241px;
+}
+@media (min-width: 1024px) {
+  .section__img {
+    width: 345px;
+    height: 365px;
+  }
 }
 .section__icon {
   width: 160px;
