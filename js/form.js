@@ -24,7 +24,7 @@ document.querySelector("#submit").addEventListener("click", e => {
         *N de Teléfono / Celular: ${tel}*%0A
         *Distrito: ${district}*%0A
         *Dirección: ${address}*%0A
-        *Comentario*%0A
+        *Comentario:*%0A
         ${description}`;
 
   if (name === "" || mail === "") {
