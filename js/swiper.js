@@ -206,6 +206,11 @@ var swiperDonation = new Swiper(slideContainerDonation, {
     clickable: true,
   },
 
+  navigation: {
+    nextEl: ".button-next",
+    prevEl: ".button-prev",
+  },
+
   autoplay:{
       delay:5000,
   },

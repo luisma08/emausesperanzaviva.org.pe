@@ -394,6 +394,10 @@
   }
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .section {
   padding-top: var(--padding-section);
   padding-bottom: var(--padding-section);
