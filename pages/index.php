@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=https://emausesperanzaviva.org/styles/css/style.css">
-    <link rel="stylesheet" href=https://emausesperanzaviva.org/styles/css/fe.css">
+    <link rel="stylesheet" href="https://emausesperanzaviva.org/styles/css/style.css">
+    <link rel="stylesheet" href="https://emausesperanzaviva.org/styles/css/fe.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link
       rel="stylesheet"
@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- ICON -->
-    <link rel="shortcut icon" href=https://emausesperanzaviva.org/assets/icon/favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="https://emausesperanzaviva.org/assets/icon/favicon.svg" type="image/svg+xml">
 
     <!-- HTML Meta Tags -->
     <title>Donaciones Lima ▷ Emaús Esperanza Viva: Brindando esperanza y oportunidades a quienes más lo necesitan</title>
@@ -78,7 +78,7 @@
                     <div class="g-elements g-center gap-md g-template-columns">
                         <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
                             <div class="card__icon f-elements f-elements--center">
-                                <img src=https://emausesperanzaviva.org/assets/icon/cosas-usadas.svg" alt="donacion-de-cosas-usadas" class="icon">
+                                <img src="https://emausesperanzaviva.org/assets/icon/cosas-usadas.svg" alt="donacion-de-cosas-usadas" class="icon">
                             </div>
                             <div class="f-elements f-col f-elements--center">
                                 <h2 class="card__title card__title--primary">Donación de cosas usadas</h2>
@@ -86,7 +86,7 @@
                         </div>
                         <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
                             <div class="card__icon f-elements f-elements--center">
-                                <img src=https://emausesperanzaviva.org/assets/icon/ropa.svg" alt="donacion-de-ropa" class="icon">
+                                <img src="https://emausesperanzaviva.org/assets/icon/ropa.svg" alt="donacion-de-ropa" class="icon">
                             </div>
                             <div class="f-elements f-col f-elements--center">
                                 <h2 class="card__title card__title--primary">Donación de ropa</h2>
@@ -94,7 +94,7 @@
                         </div>
                         <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
                             <div class="card__icon f-elements f-elements--center">
-                                <img src=https://emausesperanzaviva.org/assets/icon/muebles.svg" alt="donacion-de-muebles" class="icon">
+                                <img src="https://emausesperanzaviva.org/assets/icon/muebles.svg" alt="donacion-de-muebles" class="icon">
                             </div>
                             <div class="f-elements f-col f-elements--center">
                                 <h2 class="card__title card__title--primary">Donación de muebles</h2>
@@ -102,7 +102,7 @@
                         </div>
                         <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
                             <div class="card__icon f-elements f-elements--center">
-                                <img src=https://emausesperanzaviva.org/assets/icon/juguetes.svg" alt="donacion-de-jueguetes" class="icon">
+                                <img src="https://emausesperanzaviva.org/assets/icon/juguetes.svg" alt="donacion-de-jueguetes" class="icon">
                             </div>
                             <div class="f-elements f-col f-elements--center">
                                 <h2 class="card__title card__title--primary">Donación de juguetes</h2>
@@ -110,7 +110,7 @@
                         </div>
                         <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
                             <div class="card__icon f-elements f-elements--center">
-                                <img src=https://emausesperanzaviva.org/assets/icon/maquinas.svg" alt="donacion-de-maquinas" class="icon">
+                                <img src="https://emausesperanzaviva.org/assets/icon/maquinas.svg" alt="donacion-de-maquinas" class="icon">
                             </div>
                             <div class="f-elements f-col f-elements--center">
                                 <h2 class="card__title card__title--primary">Donación de máquinas</h2>
@@ -118,7 +118,7 @@
                         </div>
                         <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
                             <div class="card__icon f-elements f-elements--center">
-                                <img src=https://emausesperanzaviva.org/assets/icon/salud.svg" alt="donacion-de-salud" class="icon">
+                                <img src="https://emausesperanzaviva.org/assets/icon/salud.svg" alt="donacion-de-salud" class="icon">
                             </div>
                             <div class="f-elements f-col f-elements--center">
                                 <h2 class="card__title card__title--primary">Donación de salud</h2>
@@ -126,7 +126,7 @@
                         </div>
                         <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
                             <div class="card__icon f-elements f-elements--center">
-                                <img src=https://emausesperanzaviva.org/assets/icon/reciclaje.svg" alt="donacion-de-reciclaje" class="icon">
+                                <img src="https://emausesperanzaviva.org/assets/icon/reciclaje.svg" alt="donacion-de-reciclaje" class="icon">
                             </div>
                             <div class="f-elements f-col f-elements--center">
                                 <h2 class="card__title card__title--primary">Donación de reciclaje</h2>
@@ -134,7 +134,7 @@
                         </div>
                         <div class="card card__hover f-elements md:f-col md:f-elements--center gap-sm bg-green p-responsive">
                             <div class="card__icon f-elements f-elements--center">
-                                <img src=https://emausesperanzaviva.org/assets/icon/atun.svg" alt="donacion-de-atun" class="icon">
+                                <img src="https://emausesperanzaviva.org/assets/icon/atun.svg" alt="donacion-de-atun" class="icon">
                             </div>
                             <div class="f-elements f-col f-elements--center">
                                 <h2 class="card__title card__title--primary">Donación de atún</h2>
@@ -161,17 +161,17 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="f-elements f-elements--center border">
-                                        <img src=https://emausesperanzaviva.org/assets/img/nosotros/nosotros-1.png" alt="" class="section__img" />
+                                        <img src="https://emausesperanzaviva.org/assets/img/nosotros/nosotros-1.png" alt="" class="section__img" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="f-elements f-elements--center border">
-                                        <img src=https://emausesperanzaviva.org/assets/img/nosotros/nosotros-2.png" alt="" class="section__img" />
+                                        <img src="https://emausesperanzaviva.org/assets/img/nosotros/nosotros-2.png" alt="" class="section__img" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="f-elements f-elements--center border">
-                                        <img src=https://emausesperanzaviva.org/assets/img/nosotros/nosotros-3.png" alt="" class="section__img" />
+                                        <img src="https://emausesperanzaviva.org/assets/img/nosotros/nosotros-3.png" alt="" class="section__img" />
                                     </div>
                                 </div>
                             </div>
@@ -193,22 +193,22 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src=https://emausesperanzaviva.org/assets/img/donaciones/nueva-esperanza-1.png" alt="donacion-nueva-esperanza-1" class="card__img">
+                                        <img src="https://emausesperanzaviva.org/assets/img/donaciones/nueva-esperanza-1.png" alt="donacion-nueva-esperanza-1" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src=https://emausesperanzaviva.org/assets/img/donaciones/nueva-esperanza-2.png" alt="donacion-nueva-esperanza-2" class="card__img">
+                                        <img src="https://emausesperanzaviva.org/assets/img/donaciones/nueva-esperanza-2.png" alt="donacion-nueva-esperanza-2" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src=https://emausesperanzaviva.org/assets/img/donaciones/nueva-esperanza-3.png" alt="donacion-nueva-esperanza-3" class="card__img">
+                                        <img src="https://emausesperanzaviva.org/assets/img/donaciones/nueva-esperanza-3.png" alt="donacion-nueva-esperanza-3" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src=https://emausesperanzaviva.org/assets/img/donaciones/nueva-esperanza-4.png" alt="donacion-nueva-esperanza-4" class="card__img">
+                                        <img src="https://emausesperanzaviva.org/assets/img/donaciones/nueva-esperanza-4.png" alt="donacion-nueva-esperanza-4" class="card__img">
                                     </div>
                                 </div>
                             </div>
@@ -217,7 +217,7 @@
                             -->
                         </div>
                         <!--
-                        <a class="button button--primary" href=https://emausesperanzaviva.org/actividades-sociales.php"><i class="bi bi-balloon-heart"></i> Ver más</a>
+                        <a class="button button--primary" href="https://emausesperanzaviva.org/actividades-sociales.php"><i class="bi bi-balloon-heart"></i> Ver más</a>
                         -->
                     </div>
                 </div>
@@ -236,22 +236,22 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src=https://emausesperanzaviva.org/assets/img/donaciones/huancayo-1.png" alt="donacion-nueva-esperanza-1" class="card__img">
+                                        <img src="https://emausesperanzaviva.org/assets/img/donaciones/huancayo-1.png" alt="donacion-nueva-esperanza-1" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src=https://emausesperanzaviva.org/assets/img/donaciones/huancayo-2.png" alt="donacion-nueva-esperanza-2" class="card__img">
+                                        <img src="https://emausesperanzaviva.org/assets/img/donaciones/huancayo-2.png" alt="donacion-nueva-esperanza-2" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src=https://emausesperanzaviva.org/assets/img/donaciones/huancayo-3.png" alt="donacion-nueva-esperanza-3" class="card__img">
+                                        <img src="https://emausesperanzaviva.org/assets/img/donaciones/huancayo-3.png" alt="donacion-nueva-esperanza-3" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src=https://emausesperanzaviva.org/assets/img/donaciones/huancayo-4.png" alt="donacion-nueva-esperanza-4" class="card__img">
+                                        <img src="https://emausesperanzaviva.org/assets/img/donaciones/huancayo-4.png" alt="donacion-nueva-esperanza-4" class="card__img">
                                     </div>
                                 </div>
                             </div>
@@ -260,7 +260,7 @@
                             -->
                         </div>
                         <!--
-                        <a class="button button--primary" href=https://emausesperanzaviva.org/actividades-sociales.php"><i class="bi bi-balloon-heart"></i> Ver más</a>
+                        <a class="button button--primary" href="https://emausesperanzaviva.org/actividades-sociales.php"><i class="bi bi-balloon-heart"></i> Ver más</a>
                         -->
                     </div>
                 </div>
@@ -287,17 +287,17 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src=https://emausesperanzaviva.org/assets/img/donaciones/sjm-1.png" alt="donacion-nueva-esperanza-1" class="card__img">
+                                        <img src="https://emausesperanzaviva.org/assets/img/donaciones/sjm-1.png" alt="donacion-nueva-esperanza-1" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src=https://emausesperanzaviva.org/assets/img/donaciones/sjm-2.png" alt="donacion-nueva-esperanza-2" class="card__img">
+                                        <img src="https://emausesperanzaviva.org/assets/img/donaciones/sjm-2.png" alt="donacion-nueva-esperanza-2" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src=https://emausesperanzaviva.org/assets/img/donaciones/sjm-3.png" alt="donacion-nueva-esperanza-3" class="card__img">
+                                        <img src="https://emausesperanzaviva.org/assets/img/donaciones/sjm-3.png" alt="donacion-nueva-esperanza-3" class="card__img">
                                     </div>
                                 </div>
                             </div>
@@ -306,7 +306,7 @@
                             -->
                         </div>
                         <!--
-                        <a class="button button--primary" href=https://emausesperanzaviva.org/actividades-sociales.php"><i class="bi bi-balloon-heart"></i> Ver más</a>
+                        <a class="button button--primary" href="https://emausesperanzaviva.org/actividades-sociales.php"><i class="bi bi-balloon-heart"></i> Ver más</a>
                         -->
                     </div>
                 </div>
@@ -325,22 +325,22 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src=https://emausesperanzaviva.org/assets/img/donaciones/vmt-1.png" alt="donacion-nueva-esperanza-1" class="card__img">
+                                        <img src="https://emausesperanzaviva.org/assets/img/donaciones/vmt-1.png" alt="donacion-nueva-esperanza-1" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src=https://emausesperanzaviva.org/assets/img/donaciones/vmt-2.png" alt="donacion-nueva-esperanza-2" class="card__img">
+                                        <img src="https://emausesperanzaviva.org/assets/img/donaciones/vmt-2.png" alt="donacion-nueva-esperanza-2" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src=https://emausesperanzaviva.org/assets/img/donaciones/vmt-3.png" alt="donacion-nueva-esperanza-3" class="card__img">
+                                        <img src="https://emausesperanzaviva.org/assets/img/donaciones/vmt-3.png" alt="donacion-nueva-esperanza-3" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src=https://emausesperanzaviva.org/assets/img/donaciones/vmt-4.png" alt="donacion-nueva-esperanza-3" class="card__img">
+                                        <img src="https://emausesperanzaviva.org/assets/img/donaciones/vmt-4.png" alt="donacion-nueva-esperanza-3" class="card__img">
                                     </div>
                                 </div>
                             </div>
@@ -349,7 +349,7 @@
                             -->
                         </div>
                         <!--
-                        <a class="button button--primary" href=https://emausesperanzaviva.org/actividades-sociales.php"><i class="bi bi-balloon-heart"></i> Ver más</a>
+                        <a class="button button--primary" href="https://emausesperanzaviva.org/actividades-sociales.php"><i class="bi bi-balloon-heart"></i> Ver más</a>
                         -->
                     </div>
                 </div>
@@ -379,7 +379,7 @@
               <div class="g-elements g-elements--center gap-md g-template-columns">
                 <div class="card f-elements f-col f-elements--center gap-sm px-sm py-sm">
                     <div class="card__img-icon f-elements f-elements--center">
-                        <img src=https://emausesperanzaviva.org/assets/icon/service-1.svg" alt="">
+                        <img src="https://emausesperanzaviva.org/assets/icon/service-1.svg" alt="">
                     </div>
                     <div class="card__body-services f-elements f-col f-elements--center gap-sm px-md">
                         <p class="card__text">
@@ -389,7 +389,7 @@
                 </div>
                 <div class="card f-elements f-col f-elements--center gap-sm px-sm py-sm">
                     <div class="card__img-icon f-elements f-elements--center">
-                        <img src=https://emausesperanzaviva.org/assets/icon/service-2.svg" alt="">
+                        <img src="https://emausesperanzaviva.org/assets/icon/service-2.svg" alt="">
                     </div>
                     <div class="card__body-services f-elements f-col f-elements--center gap-sm px-md">
                         <p class="card__text">
@@ -399,7 +399,7 @@
                 </div>
                 <div class="card f-elements f-col f-elements--center gap-sm px-sm py-sm">
                     <div class="card__img-icon f-elements f-elements--center">
-                        <img src=https://emausesperanzaviva.org/assets/icon/service-3.svg" alt="">
+                        <img src="https://emausesperanzaviva.org/assets/icon/service-3.svg" alt="">
                     </div>
                     <div class="card__body-services f-elements f-col f-elements--center gap-sm px-md">
                         <p class="card__text">
@@ -409,7 +409,7 @@
                 </div>
                 <div class="card f-elements f-col f-elements--center gap-sm px-sm py-sm">
                     <div class="card__img-icon f-elements f-elements--center">
-                        <img src=https://emausesperanzaviva.org/assets/icon/service-4.svg" alt="">
+                        <img src="https://emausesperanzaviva.org/assets/icon/service-4.svg" alt="">
                     </div>
                     <div class="card__body-services f-elements f-col f-elements--center gap-sm px-md">
                         <p class="card__text">

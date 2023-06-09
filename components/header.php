@@ -34,8 +34,8 @@
     <div class="container bg-white">
         <nav class="nav f-elements f-elements--responsive-2 f-col md:f-row" id="header-nav">
             <div class="header__container-logo">
-                <a href=https://emausesperanzaviva.org/">
-                    <img src=https://emausesperanzaviva.org/assets/img/logo.webp" alt="logo" class="nav__logo">
+                <a href="https://emausesperanzaviva.org/">
+                    <img src="https://emausesperanzaviva.org/assets/img/logo.webp" alt="logo" class="nav__logo">
                 </a>
             </div>
             <div class="f-elements f-elements--between gap-md py-md">
