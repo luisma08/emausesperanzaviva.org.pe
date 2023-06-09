@@ -83,8 +83,8 @@
                     <div class="slider f-elements f-col">
                         <div class="swiper mySwiperDonation">
                             <div class="f-elements f-elements--end gap-sm py-sm">
-                                <div class="button-prev "><img src="./assets/icon/button-prev.webp" alt="" /></div>
-                                <div class="button-next "><img src="./assets/icon/button-next.webp" alt="" /></div>
+                                <div class="button-prev cursor-pointer"><img src="./assets/icon/button-prev.webp" alt="" /></div>
+                                <div class="button-next cursor-pointer"><img src="./assets/icon/button-next.webp" alt="" /></div>
                             </div>
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">

@@ -236,22 +236,22 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src="./assets/img/donaciones/huancayo-1.png" alt="donacion-nueva-esperanza-1" class="card__img">
+                                        <img src="./assets/img/donaciones/huancayo-1.png" alt="donacion-huancayo-1" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src="./assets/img/donaciones/huancayo-2.png" alt="donacion-nueva-esperanza-2" class="card__img">
+                                        <img src="./assets/img/donaciones/huancayo-2.png" alt="donacion-huancayo-2" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src="./assets/img/donaciones/huancayo-3.png" alt="donacion-nueva-esperanza-3" class="card__img">
+                                        <img src="./assets/img/donaciones/huancayo-3.png" alt="donacion-huancayo-3" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src="./assets/img/donaciones/huancayo-4.png" alt="donacion-nueva-esperanza-4" class="card__img">
+                                        <img src="./assets/img/donaciones/huancayo-4.png" alt="donacion-huancayo-4" class="card__img">
                                     </div>
                                 </div>
                             </div>
@@ -287,17 +287,17 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src="./assets/img/donaciones/sjm-1.png" alt="donacion-nueva-esperanza-1" class="card__img">
+                                        <img src="./assets/img/donaciones/sjm-1.png" alt="donacion-sjm-1" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src="./assets/img/donaciones/sjm-2.png" alt="donacion-nueva-esperanza-2" class="card__img">
+                                        <img src="./assets/img/donaciones/sjm-2.png" alt="donacion-sjm-2" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src="./assets/img/donaciones/sjm-3.png" alt="donacion-nueva-esperanza-3" class="card__img">
+                                        <img src="./assets/img/donaciones/sjm-3.png" alt="donacion-sjm-3" class="card__img">
                                     </div>
                                 </div>
                             </div>
@@ -325,22 +325,22 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src="./assets/img/donaciones/vmt-1.png" alt="donacion-nueva-esperanza-1" class="card__img">
+                                        <img src="./assets/img/donaciones/vmt-1.png" alt="donacion-vmt-1" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src="./assets/img/donaciones/vmt-2.png" alt="donacion-nueva-esperanza-2" class="card__img">
+                                        <img src="./assets/img/donaciones/vmt-2.png" alt="donacion-vmt-2" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src="./assets/img/donaciones/vmt-3.png" alt="donacion-nueva-esperanza-3" class="card__img">
+                                        <img src="./assets/img/donaciones/vmt-3.png" alt="donacion-vmt-3" class="card__img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img src="./assets/img/donaciones/vmt-4.png" alt="donacion-nueva-esperanza-3" class="card__img">
+                                        <img src="./assets/img/donaciones/vmt-4.png" alt="donacion-vmt-4" class="card__img">
                                     </div>
                                 </div>
                             </div>
