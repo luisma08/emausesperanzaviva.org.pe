@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/css/style.css">
-    <link rel="stylesheet" href="./styles/css/fe.css">
+    <link rel="stylesheet" href=https://emausesperanzaviva.org/styles/css/style.css">
+    <link rel="stylesheet" href=https://emausesperanzaviva.org/styles/css/fe.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link
       rel="stylesheet"
@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- ICON -->
-    <link rel="shortcut icon" href="./assets/icon/favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href=https://emausesperanzaviva.org/assets/icon/favicon.svg" type="image/svg+xml">
 
     <!-- HTML Meta Tags -->
     <title>▷ Emaús - Esperanza Viva  | Donaciones lima</title>
@@ -83,15 +83,15 @@
                     <div class="slider f-elements f-col">
                         <div class="swiper mySwiperDonation">
                             <div class="f-elements f-elements--end gap-sm py-sm">
-                                <div class="button-prev "><img src="./assets/icon/button-prev.webp" alt="" /></div>
-                                <div class="button-next "><img src="./assets/icon/button-next.webp" alt="" /></div>
+                                <div class="button-prev "><img src=https://emausesperanzaviva.org/assets/icon/button-prev.webp" alt="" /></div>
+                                <div class="button-next "><img src=https://emausesperanzaviva.org/assets/icon/button-next.webp" alt="" /></div>
                             </div>
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <a href="#donacion-de-cosas-usadas" class="section__link donacion-1">
                                         <div class="card card__slide f-elements f-col f-elements--center gap-sm bg-green p-responsive">
                                             <div class="card__icon f-elements f-elements--center">
-                                                <img src="./assets/icon/cosas-usadas.svg" alt="donacion-de-cosas-usadas" class="icon">
+                                                <img src=https://emausesperanzaviva.org/assets/icon/cosas-usadas.svg" alt="donacion-de-cosas-usadas" class="icon">
                                             </div>
                                             <div class="f-elements f-col f-elements--center">
                                                 <h3 class="card__title card__title--secondary">Donación de cosas usadas</h3>
@@ -103,7 +103,7 @@
                                     <a href="#donacion-de-ropa" class="section__link donacion-2">
                                         <div class="card card__slide f-elements f-col f-elements--center gap-sm bg-green p-responsive">
                                             <div class="card__icon f-elements f-elements--center">
-                                                <img src="./assets/icon/ropa.svg" alt="donacion-de-ropa" class="icon">
+                                                <img src=https://emausesperanzaviva.org/assets/icon/ropa.svg" alt="donacion-de-ropa" class="icon">
                                             </div>
                                             <div class="f-elements f-col f-elements--center">
                                                 <h3 class="card__title card__title--secondary">Donación de ropa</h3>
@@ -115,7 +115,7 @@
                                     <a href="#donacion-de-muebles" class="section__link donacion-3">
                                         <div class="card card__slide f-elements f-col f-elements--center gap-sm bg-green p-responsive">
                                             <div class="card__icon f-elements f-elements--center">
-                                                <img src="./assets/icon/muebles.svg" alt="donacion-de-muebles" class="icon">
+                                                <img src=https://emausesperanzaviva.org/assets/icon/muebles.svg" alt="donacion-de-muebles" class="icon">
                                             </div>
                                             <div class="f-elements f-col f-elements--center">
                                                 <h3 class="card__title card__title--secondary">Donación de muebles</h3>
@@ -127,7 +127,7 @@
                                     <a href="#donacion-de-jueguetes" class="section__link donacion-4">
                                         <div class="card card__slide f-elements f-col f-elements--center gap-sm bg-green p-responsive">
                                             <div class="card__icon f-elements f-elements--center">
-                                                <img src="./assets/icon/juguetes.svg" alt="donacion-de-jueguetes" class="icon">
+                                                <img src=https://emausesperanzaviva.org/assets/icon/juguetes.svg" alt="donacion-de-jueguetes" class="icon">
                                             </div>
                                             <div class="f-elements f-col f-elements--center">
                                                 <h3 class="card__title card__title--secondary">Donación de juguetes</h3>
@@ -139,7 +139,7 @@
                                     <a href="#donacion-de-maquinas" class="section__link donacion-5">
                                         <div class="card card__slide f-elements f-col f-elements--center gap-sm bg-green p-responsive">
                                             <div class="card__icon f-elements f-elements--center">
-                                                <img src="./assets/icon/maquinas.svg" alt="donacion-de-maquinas" class="icon">
+                                                <img src=https://emausesperanzaviva.org/assets/icon/maquinas.svg" alt="donacion-de-maquinas" class="icon">
                                             </div>
                                             <div class="f-elements f-col f-elements--center">
                                                 <h3 class="card__title card__title--secondary">Donación de máquinas / electrodomesticos</h3>
@@ -151,7 +151,7 @@
                                     <a href="#donacion-de-salud" class="section__link donacion-6">
                                         <div class="card card__slide f-elements f-col f-elements--center gap-sm bg-green p-responsive">
                                             <div class="card__icon f-elements f-elements--center">
-                                                <img src="./assets/icon/salud.svg" alt="donacion-de-salud" class="icon">
+                                                <img src=https://emausesperanzaviva.org/assets/icon/salud.svg" alt="donacion-de-salud" class="icon">
                                             </div>
                                             <div class="f-elements f-col f-elements--center">
                                                 <h3 class="card__title card__title--secondary">Donación de salud</h3>
@@ -163,7 +163,7 @@
                                     <a href="#donacion-de-reciclaje" class="section__link donacion-7">
                                         <div class="card card__slide f-elements f-col f-elements--center gap-sm bg-green p-responsive">
                                             <div class="card__icon f-elements f-elements--center">
-                                                <img src="./assets/icon/reciclaje.svg" alt="donacion-de-reciclaje" class="icon">
+                                                <img src=https://emausesperanzaviva.org/assets/icon/reciclaje.svg" alt="donacion-de-reciclaje" class="icon">
                                             </div>
                                             <div class="f-elements f-col f-elements--center">
                                                 <h3 class="card__title card__title--secondary">Donación de reciclaje</h3>
@@ -175,7 +175,7 @@
                                     <a href="#donacion-de-atun" class="section__link donacion-8">
                                         <div class="card card__slide f-elements f-col f-elements--center gap-sm bg-green p-responsive">
                                             <div class="card__icon f-elements f-elements--center">
-                                                <img src="./assets/icon/atun.svg" alt="donacion-de-atun" class="icon">
+                                                <img src=https://emausesperanzaviva.org/assets/icon/atun.svg" alt="donacion-de-atun" class="icon">
                                             </div>
                                             <div class="f-elements f-col f-elements--center">
                                                 <h3 class="card__title card__title--secondary">Donación de atún</h3>
@@ -502,7 +502,7 @@
         <section class="section">
             <div class="container">
                 <div class="f-elements f-col p-relative py-md">
-                    <img src="./assets/img/leaf.webp" class="section__icon" alt="" />
+                    <img src=https://emausesperanzaviva.org/assets/img/leaf.webp" class="section__icon" alt="" />
                     <p class="section__description section__description--third">
                         Tu generosidad puede marcar la diferencia.
                     </p>
@@ -526,7 +526,7 @@
             <div class="container">
                 <div class="f-elements f-col md:f-row md:f-row--reverse gap-md">
                     <div class="f-elements f-col md:w-50">
-                        <img src="./assets/img/nosotros/nosotros-4.png" alt="" />
+                        <img src=https://emausesperanzaviva.org/assets/img/nosotros/nosotros-4.png" alt="" />
                     </div>
                     <div class="f-elements f-col f-elements--center md:w-50 py-md">
                         <div class="f-elements f-col gap-sm">

@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !index.php
+RewriteRule ^(.*)$ index.php?url=$1
+
+<IfModule mod_headers.c>
+  Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+<IfModule mod_mime.c>
+    AddType application/javascript .js
+</IfModule>
