@@ -4,7 +4,7 @@
             <div class="f-elements f-col">
                 <div class="f-elements f-col gap-sm">
                     <a href="index.html" class="f-elements mx-responsive">
-                        <img src="https://emausesperanzaviva.org/assets/img/logo-white.webp" alt="logo" class="footer__logo">
+                        <img src="./assets/img/logo-white.webp" alt="logo" class="footer__logo">
                     </a>
                     <p class="footer__title footer__title--secondary">Nuestra Institución</p>
                     <p class="footer__description footer__description--secondary">

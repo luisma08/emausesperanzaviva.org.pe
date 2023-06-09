@@ -215,12 +215,12 @@
 }
 
 .bg-parallax{
-    background-image: url(https://emausesperanzaviva.org/assets/img/bg-parallax-1.webp");
+    background-image: url("../../assets/img/bg-parallax-1.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
     @include desktop{
-        background-image: url(https://emausesperanzaviva.org/assets/img/bg-parallax-2.png");
+        background-image: url("../../assets/img/bg-parallax-2.png");
         /* Full height */
         height: 18.375rem;
         width: 100%;
@@ -234,18 +234,18 @@
 }
 
 .bg-img{
-    background-image: url(https://emausesperanzaviva.org/assets/img/bg-img-1.webp");
+    background-image: url("../../assets/img/bg-img-1.webp");
     background-size: 100% 100%;
     background-color: #88D66E;
     background-repeat: no-repeat;
 
     @include desktop{
-        background-image: url(https://emausesperanzaviva.org/assets/img/bg-img-2.webp");
+        background-image: url("../../assets/img/bg-img-2.webp");
     }
 }
 
 .bg-img-wsp{
-    background-image: url(https://emausesperanzaviva.org/assets/img/wsp-hero.png");
+    background-image: url("../../assets/img/wsp-hero.png");
     background-size: 191px 266px;
     height: 335px;
     width: 208px;
@@ -253,7 +253,7 @@
     background-position: bottom 20px left;
 
     @include desktop{
-        background-image: url(https://emausesperanzaviva.org/assets/img/wsp-hero-resp.png");
+        background-image: url("../../assets/img/wsp-hero-resp.png");
         background-size: 100% 100%;
         height: 548px;
         padding-bottom: 42px;

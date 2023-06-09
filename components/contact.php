@@ -6,7 +6,7 @@
                     <p class="contact__title">Formulario de Contacto</p>
                     <div class="f-elements f-col md:f-row md:f-row--reverse gap-md">
                         <div class="f-elements f-col md:w-50 f-elements--center">
-                            <img src="https://emausesperanzaviva.org/assets/img/contact.png" alt="logo" class="contact__img" />
+                            <img src="./assets/img/contact.png" alt="logo" class="contact__img" />
                         </div>
                         <div class="f-elements f-col f-elements--center md:w-50">
                             <div class="f-elements f-col gap-md">
@@ -106,7 +106,7 @@
                         <div id="response"></div>
                     </div>
                 </form>
-                <script src="https://emausesperanzaviva.org/js/form.js"></script>
+                <script src="./js/form.js"></script>
                 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
             </div>
         </div>

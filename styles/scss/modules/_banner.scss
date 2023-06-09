@@ -1,6 +1,6 @@
 .banner{
     --opacidad-negro: 0.5;
-    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url(https://emausesperanzaviva.org/assets/img/banners/banner-home.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../../assets/img/banners/banner-home.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     object-fit: cover;
@@ -12,11 +12,11 @@
     background-position: center;
 
     &__social{
-        background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url(https://emausesperanzaviva.org/assets/img/banners/banner-home-2.webp");
+        background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../../assets/img/banners/banner-home-2.webp");
     }
 
     @include desktop{
-        background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url(https://emausesperanzaviva.org/assets/img/banners/banner-home-2.webp");
+        background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../../assets/img/banners/banner-home-2.webp");
         height: 511px;
         padding-bottom: 0;
     }
