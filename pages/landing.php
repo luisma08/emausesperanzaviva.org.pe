@@ -51,7 +51,7 @@
 </head>
 <body class="body">
     <!-- Agregando componente header -->
-    <?php include('components/header-landing.php') ?>
+    <?php include('./components/header-landing.php') ?>
     <!-- FIN -->
 
     <main class="main">
@@ -556,7 +556,7 @@
     </main>
 
     <!-- Agregando componente footer -->
-    <?php include('components/footer-landing.php') ?>
+    <?php include('./components/footer-landing.php') ?>
     <!-- FIN -->
 
     <script src="./js/swiper.js" type="module"></script>

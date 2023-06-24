@@ -13,6 +13,7 @@ var slideContainerDonation = document.querySelector('.mySwiperDonation');
 var swiper4 = new Swiper(slideContainerNosotros, {
     slidesPerView: 1,
     spaceBetween: 10,
+    effect: "fade",
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -20,6 +21,7 @@ var swiper4 = new Swiper(slideContainerNosotros, {
 
     autoplay:{
         delay:5000,
+        disableOnInteraction: false,
     },
 
     loop: true,
@@ -36,6 +38,7 @@ var swiperActivity1 = new Swiper(slideContainerActivity1, {
 
   autoplay:{
       delay:5000,
+      disableOnInteraction: false,
   },
 
   loop: true,
@@ -79,6 +82,7 @@ var swiperActivity2 = new Swiper(slideContainerActivity2, {
 
   autoplay:{
       delay:5000,
+      disableOnInteraction: false,
   },
 
   loop: true,
@@ -113,6 +117,7 @@ var swiperActivity2 = new Swiper(slideContainerActivity2, {
 });
 
 var swiperActivity3 = new Swiper(slideContainerActivity3, {
+  enabled: true,
   slidesPerView: 1,
   spaceBetween: 10,
   pagination: {
@@ -122,6 +127,7 @@ var swiperActivity3 = new Swiper(slideContainerActivity3, {
 
   autoplay:{
       delay:5000,
+      disableOnInteraction: false,
   },
 
   loop: true,
@@ -165,6 +171,7 @@ var swiperActivity4 = new Swiper(slideContainerActivity4, {
 
   autoplay:{
       delay:5000,
+      disableOnInteraction: false,
   },
 
   loop: true,
@@ -213,6 +220,7 @@ var swiperDonation = new Swiper(slideContainerDonation, {
 
   autoplay:{
       delay:5000,
+      disableOnInteraction: false,
   },
 
   loop: true,
