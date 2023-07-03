@@ -34,9 +34,9 @@
     <div class="container bg-white">
         <nav class="nav f-elements f-elements--responsive-2 f-col md:f-row" id="header-nav">
             <div class="header__container-logo">
-                <a href="./">
+                <div>
                     <img src="./assets/img/logo.webp" alt="logo" class="nav__logo">
-                </a>
+                </div>
             </div>
         </nav>
     </div>
