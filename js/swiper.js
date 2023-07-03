@@ -117,7 +117,6 @@ var swiperActivity2 = new Swiper(slideContainerActivity2, {
 });
 
 var swiperActivity3 = new Swiper(slideContainerActivity3, {
-  enabled: true,
   slidesPerView: 1,
   spaceBetween: 10,
   pagination: {
@@ -155,7 +154,7 @@ var swiperActivity3 = new Swiper(slideContainerActivity3, {
       },
 
       1280: {
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 40,
       }
     }
