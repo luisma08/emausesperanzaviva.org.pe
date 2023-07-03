@@ -6,7 +6,7 @@ $url = rtrim($url, '/'); // Eliminar la barra diagonal al final si existe
 // Rutas disponibles y sus correspondientes archivos
 $rutas = [
     '' => 'index',
-    '/donaciones' => 'landing'
+    '/landing' => 'landing'
 ];
 
 // Verificar si la ruta existe en el array de rutas
