@@ -3,9 +3,16 @@
 $url = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '/';
 $url = rtrim($url, '/'); // Eliminar la barra diagonal al final si existe
 
+// Verificar si la ruta raíz tiene parámetros
+if (strpos($url, '?') !== false) {
+    // Obtener la parte de la ruta antes del signo de interrogación
+    $url = strtok($url, '?');
+}
+
 // Rutas disponibles y sus correspondientes archivos
 $rutas = [
     '' => 'index',
+    '/' => 'index',
     '/landing' => 'landing'
 ];
 
