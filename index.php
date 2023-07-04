@@ -13,18 +13,30 @@ $rutas = [
 if (array_key_exists($url, $rutas)) {
     // Construir la ruta del archivo
     $rutaArchivo = 'pages/' . $rutas[$url] . '.php';
-    //print_r($url);
-    
+
     // Verificar si el archivo existe
     if (file_exists($rutaArchivo)) {
         // Incluir el archivo correspondiente
         include $rutaArchivo;
-        //print_r($rutaArchivo);
-    } else {
-        // Archivo no encontrado, incluir controlador de página no encontrada
-        include 'pages/notfound.php';
+        exit(); // Salir del script después de incluir el archivo
     }
-} else {
-    // Ruta no encontrada, incluir controlador de página no encontrada
-    include 'pages/notfound.php';
 }
+
+// Verificar si se está accediendo a una ruta con parámetros
+if (preg_match('/^\/([\w-]+)(\?.*)?$/', $url, $matches)) {
+    // Obtener el nombre de la página
+    $nombrePagina = $matches[1];
+
+    // Construir la ruta del archivo de la página
+    $rutaArchivo = 'pages/' . $nombrePagina . '.php';
+
+    // Verificar si el archivo existe
+    if (file_exists($rutaArchivo)) {
+        // Incluir el archivo de la página
+        include $rutaArchivo;
+        exit(); // Salir del script después de incluir el archivo
+    }
+}
+
+// Ruta no encontrada, incluir controlador de página no encontrada
+include 'pages/notfound.php';
