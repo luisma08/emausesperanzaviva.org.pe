@@ -206,7 +206,7 @@
 }
 
 .bg-silver {
-  background-color: #CFD9CE;
+  background-color: rgba(207, 217, 206, 0.3);
 }
 
 .bg-light {
@@ -217,6 +217,7 @@
   background-image: url("../../assets/img/bg-parallax-1.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  mix-blend-mode: luminosity;
 }
 @media (min-width: 1024px) {
   .bg-parallax {
@@ -255,11 +256,10 @@
 @media (min-width: 1024px) {
   .bg-img-wsp {
     background-image: url("../../assets/img/wsp-hero-resp.png");
-    background-size: 100% 100%;
-    height: 548px;
+    background-size: 469px 100%;
+    height: 518px;
     padding-bottom: 42px;
-    padding-left: 96px;
-    background-position: bottom 0px left;
+    background-position: 50% 100%;
   }
 }
 
@@ -511,16 +511,30 @@
     padding-right: 5rem;
   }
 }
+.section__description--alternative--fourth {
+  text-align: center;
+  font-size: 21px;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  color: #1F8949;
+}
+@media (min-width: 1024px) {
+  .section__description--alternative--fourth {
+    text-align: center;
+    font-family: Urbanist;
+  }
+}
 .section__description--responsive {
   text-align: center;
   font-size: 21px;
-  line-height: 25px;
+  line-height: normal;
 }
 @media (min-width: 1024px) {
   .section__description--responsive {
     text-align: left;
     font-size: 30px;
-    line-height: 36px;
+    line-height: 45px;
   }
 }
 .section__text {
@@ -973,7 +987,7 @@
   border: 0.0625rem solid var(--primary-theme-color);
   border-radius: 4px;
   color: var(--primary-text-color);
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   text-decoration: none;
   font-weight: 600;
   font-family: var(--primary-font-family);
@@ -985,7 +999,8 @@
 }
 @media (min-width: 1024px) {
   .button {
-    font-size: 1.2rem;
+    font-size: 2.188rem;
+    padding: 0.563rem 2.188rem;
   }
 }
 .button:hover {
@@ -1008,6 +1023,15 @@
 }
 .button--secondary:hover {
   box-shadow: 0 0 0.25rem 0.125rem var(--secondary-button-color);
+}
+.button--alternative {
+  background-color: #F15828;
+  border: 0.0625rem solid #F15828;
+  color: var(primary-text-color);
+  border-radius: 9px;
+}
+.button--alternative:hover {
+  box-shadow: 0 0 0.25rem 0.125rem #F15828;
 }
 .button--outline-primary {
   background-color: transparent;
@@ -1058,8 +1082,14 @@
   width: 100%;
 }
 .card__slide {
-  width: 190px;
-  height: 190px;
+  width: 231px;
+  height: 108px;
+}
+@media (min-width: 1024px) {
+  .card__slide {
+    width: auto;
+    height: 180px;
+  }
 }
 .card__hover {
   transition: box-shadow 0.25s;
@@ -1139,7 +1169,8 @@
 }
 
 .icon {
-  width: 100%;
+  width: 63px;
+  height: 63px;
   animation: t-rotate 2.5s linear infinite;
 }
 

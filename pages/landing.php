@@ -70,9 +70,9 @@
         <section class="bg-img">
             <div class="container">
                 <div class="f-elements f-col md:f-row md:f-row--reverse">
-                    <div class="f-elements f-col md:w-50 bg-img-wsp">
+                    <div class="f-elements f-col md:f-elements--center md:w-50 bg-img-wsp">
                         <div class="d-block mt-auto">
-                            <a class="button button--primary" href="https://wa.me/+51954746838?text=Hola Emaús Esperanza Viva, deseo realizar una donación"><i class="bi bi-whatsapp"></i> deseo donar</a>
+                            <a class="button button--alternative" href="https://wa.me/+51954746838?text=Hola Emaús Esperanza Viva, deseo realizar una donación"><i class="bi bi-whatsapp"></i> deseo donar</a>
                         </div>
                     </div>
                     <div class="f-elements f-col f-elements--center md:w-50 py-md">
@@ -547,6 +547,55 @@
                             </p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ACTIVIDADES 1 -->
+
+        <section class="section">
+            <div class="f-elements f-col f-elements--center">
+                <p class="section__description section__description--fourth">
+                    ¡Pequeñas acciones hacen la diferencia!
+                </p>
+            </div>
+        </section>
+
+        <section class="" id="actividades">
+            <div class="container f-elements f-col bg-green p-responsive--section gap-sm">
+                <p class="section__title section__title--third">Donación en Nueva Esperanza, Alto Retamal</p>
+                <p class="section__text section__text--primary">Villa María del Triunfo, Lima</p>
+                <div class="f-elements f-col f-elements--center gap-md py-md">
+                    <div class="swiper mySwiperActivity1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img src="./assets/img/donaciones/nueva-esperanza-1.png" alt="donacion-nueva-esperanza-1" class="card__img">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img src="./assets/img/donaciones/nueva-esperanza-2.png" alt="donacion-nueva-esperanza-2" class="card__img">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img src="./assets/img/donaciones/nueva-esperanza-3.png" alt="donacion-nueva-esperanza-3" class="card__img">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img src="./assets/img/donaciones/nueva-esperanza-4.png" alt="donacion-nueva-esperanza-4" class="card__img">
+                                </div>
+                            </div>
+                        </div>
+                        <!--
+                        <div class="swiper-pagination mt-auto"></div>
+                        -->
+                    </div>
+                    <!--
+                    <a class="button button--primary" href="./actividades-sociales.php"><i class="bi bi-balloon-heart"></i> Ver más</a>
+                    -->
                 </div>
             </div>
         </section>

@@ -10,8 +10,13 @@
     width: 100%;
 
     &__slide{
-      width: 190px;
-      height: 190px;
+      width: 231px;
+      height: 108px;
+
+      @include desktop{
+        width: auto;
+        height: 180px;
+      }
     }
 
     &__hover {
@@ -109,6 +114,7 @@
   }
 
   .icon{
-    width: 100%;
+    width: 63px;
+    height: 63px;
     animation: t-rotate 2.5s linear infinite;
   }

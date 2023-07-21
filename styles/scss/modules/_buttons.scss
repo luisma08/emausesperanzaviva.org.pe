@@ -3,7 +3,7 @@
     border: 0.0625rem solid var(--primary-theme-color);
     border-radius: 4px;
     color: var(--primary-text-color);
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     text-decoration: none;
     font-weight: 600;
     font-family: var(--primary-font-family);
@@ -14,7 +14,8 @@
     text-align: center;
 
     @include desktop{
-        font-size: 1.2rem;
+        font-size: 2.188rem;
+        padding: 0.563rem 2.188rem;
     }
 
     &:hover{
@@ -40,6 +41,17 @@
 
         &:hover{
             box-shadow: 0 0 0.25rem 0.125rem var(--secondary-button-color);
+        }
+    }
+
+    &--alternative{
+        background-color: #F15828;
+        border: 0.0625rem solid #F15828;
+        color: var(primary-text-color);
+        border-radius: 9px;
+
+        &:hover{
+            box-shadow: 0 0 0.25rem 0.125rem #F15828;
         }
     }
     
